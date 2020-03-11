@@ -1,0 +1,17 @@
+ {% extends "blog/base.html" %}
+ {% block content %}
+<h1>Registration</h1>
+     <form method="post">
+     {% csrf_token %}
+     {{form}}
+     <button type="submit">Submit</button>
+     {% if data %}
+
+       <hr> {{data}}
+
+        {% endif %}
+     <hr>
+
+    <button type="button" onclick="location.href={% url 'rec' %}"> Recognizer </button> <hr>
+            
+{% endblock content%}

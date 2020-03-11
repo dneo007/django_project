@@ -1,0 +1,12 @@
+ {% extends "blog/base.html" %}
+ {% block content %}
+
+        {% if data %}
+            <h1>Hello</h1>
+        {{data}}
+            {%  elif empty %}
+                {{empty}}
+        {% endif %}
+
+            
+{% endblock content%}
