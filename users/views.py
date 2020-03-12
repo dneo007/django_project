@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth import authenticate, login
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
 
 
@@ -9,8 +10,12 @@ def register(request):
         form = UserRegisterForm(request.POST)
         if form.is_valid():
             form.save()
+            username = form.cleaned_data.get('username')
+            raw_password = form.cleaned_data.get('password1')
+            account = authenticate(username=username, password=raw_password)
+            login(request, account)
             messages.success(request, f'Your account has been created! You are now able to log in')
-            return redirect('login')
+            return redirect('profile')
     else:
         form = UserRegisterForm()
     return render(request, 'users/register.html', {'form': form})
