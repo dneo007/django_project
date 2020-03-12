@@ -7,7 +7,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
 import time
 import pickle
-#import cv2
+import cv2
 import os
 from PIL import Image
 #import numpy as np
