@@ -1,4 +1,4 @@
-image: "arm32v7/python:3"
+image: "arm32v7/python:3.7"
 
 stages:
   - install docker
