@@ -1,0 +1,17 @@
+image: "arm32v7/python:3"
+
+stages:
+  - install docker
+  - buildpush django
+
+dockerinstall:
+  stage: install docker
+  script:
+  - curl -fsSL https://get.docker.com -o get-docker.sh
+  - sh get-docker.sh
+
+dockerbuildpush:
+  stage: buildpush django
+  script:
+  - docker build -t dneo/djangocon:armlab .
+  - echo "$REGISTRY_PASSWORD" | docker login -u "$REGISTRY_USER" --password-stdin
