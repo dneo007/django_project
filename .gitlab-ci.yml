@@ -5,10 +5,10 @@ stages:
 
 before_script:
   - curl -fsSL https://get.docker.com -o get-docker.sh
-  - sh get-docker.sh
+  - sudo sh get-docker.sh
 
 dockerbuildpush:
   stage: buildpush django
   script:
-  - docker build -t dneo/djangocon:armlab .
+  - sudo docker build -t dneo/djangocon:x64 .
   - echo "$REGISTRY_PASSWORD" | docker login -u "$REGISTRY_USER" --password-stdin
