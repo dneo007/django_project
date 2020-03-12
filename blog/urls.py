@@ -10,7 +10,6 @@ urlpatterns = [
     path('post/new/', PostCreateView.as_view(), name='post-create'),
     path('post/<int:pk>/update', PostUpdateView.as_view(), name='post-update'),
     path('post/<int:pk>/delete', PostDeleteView.as_view(), name='post-delete'),
-    #path('camera/', views.cam, name='cam'),
-    #path('recognize/', views.recognize, name='rec'),
+    path('recognize/', views.recognize, name='rec'),
     path('addName/', views.addName),
 ]
