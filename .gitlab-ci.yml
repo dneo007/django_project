@@ -1,12 +1,9 @@
 image: "python:3"
 
 stages:
-  - install docker
   - buildpush django
 
-dockerinstall:
-  stage: install docker
-  script:
+before_script:
   - curl -fsSL https://get.docker.com -o get-docker.sh
   - sh get-docker.sh
 
