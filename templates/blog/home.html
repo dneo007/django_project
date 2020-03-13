@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
+<div class="container">
+
+
+</div>
+
     <div class="container">
     <div class="row">
 
@@ -35,17 +40,25 @@
     <div class="container">
     <h2 style="text-align: left"><br>Feedback</h2>
     {% for post in posts %}
-        <article class="media content-section">
-          <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}" width="50" height="50">
-          <div class="media-body">
-            <div class="article-metadata">
+
+        <div class="card horizontal">
+          <div class="card-stacked">
+
+            <div class="card-content">
+              <div class="article-metadata">
+                  <img class="circle" src="{{ post.author.profile.image.url }}" width="50" height="50">
               <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
               <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
             </div>
-            <h5><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h5>
-            <p class="article-content">{{ post.content }}</p>
+            </div>
+            <div class="card-action">
+                 <p class="article-content">{{ post.content }}</p>
+            </div>
           </div>
-        </article>
+        </div>
+
+
+
     {% endfor %}
     {% if is_paginated %}
 

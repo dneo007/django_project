@@ -352,11 +352,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/media/profile_pics" />
+      <recent name="$PROJECT_DIR$/static/media" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/static/media" />
       <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/blog" />
     </key>
   </component>
   <component name="RunManager">
@@ -403,7 +403,11 @@
       <workItem from="1583977628536" duration="11814000" />
       <workItem from="1583998911218" duration="958000" />
       <workItem from="1584000286298" duration="1099000" />
-      <workItem from="1584001490008" duration="3670000" />
+      <workItem from="1584001490008" duration="6543000" />
+      <workItem from="1584008482396" duration="1299000" />
+      <workItem from="1584009983477" duration="355000" />
+      <workItem from="1584016882093" duration="3485000" />
+      <workItem from="1584064219344" duration="2781000" />
     </task>
     <servers />
   </component>
