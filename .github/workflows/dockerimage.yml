@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Publish to Registry
       run: |
-          docker build dneo/djangocon:${GITHUB_REF:10} .
+          docker build -t dneo/djangocon:${GITHUB_REF:10} .
     - name: Push To Registry
       run: |
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
