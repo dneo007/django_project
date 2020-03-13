@@ -4,7 +4,7 @@ on:
   push:
     tags:
     - '*'
-
+##tagging formate v1.0/v2.0 etc
 jobs:
   build:
     runs-on: ubuntu-18.04
