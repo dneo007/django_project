@@ -16,4 +16,4 @@ jobs:
         name: dneo/djangocon
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        tags: ${GITHUB_REF:10}
+        tags: $(echo ${GITHUB_REF:10})
