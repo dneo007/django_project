@@ -7,13 +7,13 @@ on:
 ##tagging formate v1.0/v2.0 etc
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
-      with:
-        name: dneo/djangocon
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
-        tags: echo ${GITHUB_REF:10} #"x64github"
+      run: |
+          docker build . --file Dockerfile --tag dneo/djangocon:${GITHUB_REF:10}
+    - name: Push To Registry
+      run: |
+          docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+          docker push dneo/djangocon:${GITHUB_REF:10}
+          docker logout
