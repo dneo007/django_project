@@ -3,11 +3,7 @@ name: Docker Image CI
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
-#name: Publish Docker
-#on: [push]
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -20,13 +16,4 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         tags: "x64github"
-#jobs:
-
- # build:
-
-  #  runs-on: ubuntu-18.04
-
-#    steps:
- #   - uses: actions/checkout@v2
-  #  - name: Build the Docker image
-   #   run: docker build -t x64:$(date +%s)
+\
