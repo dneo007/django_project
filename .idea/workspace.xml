@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -11,9 +10,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/._.DS_Store" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/images/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/images/abc/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/images/abc/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/images/abc/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/images/abc/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/images/abc/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/5.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
@@ -406,7 +412,13 @@
       <workItem from="1584008482396" duration="1299000" />
       <workItem from="1584009983477" duration="355000" />
       <workItem from="1584016882093" duration="3485000" />
-      <workItem from="1584064219344" duration="3041000" />
+      <workItem from="1584064219344" duration="17206000" />
+      <workItem from="1584286686246" duration="3181000" />
+      <workItem from="1584333662157" duration="3991000" />
+      <workItem from="1584341022965" duration="183000" />
+      <workItem from="1584341591567" duration="5452000" />
+      <workItem from="1584349073880" duration="2390000" />
+      <workItem from="1584363661874" duration="391000" />
     </task>
     <servers />
   </component>
@@ -414,6 +426,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584336676693">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584336676693" />
+    <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584078856483">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1584078856483" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584351515740">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584351515740" />
     <state x="668" y="74" key="CommitChangelistDialog2" timestamp="1583995194109">
       <screen x="0" y="23" width="1680" height="956" />
     </state>

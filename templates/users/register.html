@@ -10,11 +10,23 @@
       <fieldset class="form-group">
         <legend class="border-bottom mb-4">Registration</legend>
           {{ form }}
-          {{ p_form }}
+          <label>
+                {% if checked %}
+                    <input type="checkbox" id="id_fc" name="fc" checked="checked">
+                {% else %}
+                    <input type="checkbox" id="id_fc" name="fc">
+                {% endif %}
+              <span for="id_fc">Enable Face ID</span>
+            </label>
+{#              <label>#}
+{#          <input type="checkbox" id="id_faceRec" name="faceRec" class="filled-in" checked="checked" />#}
+{#        <span>Enable facial recognition login</span>#}
+{#              </label>#}
       </fieldset>
       <div class="form-group">
         <button class ="btn btn-outline-info" type="submit">Sign Up</button>
       </div>
+
     </form>
     <div class="border-top pt-3">
       <small class="text-muted">

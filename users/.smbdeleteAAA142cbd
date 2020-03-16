@@ -1,15 +1,32 @@
 from django.db import models
 from django.contrib.auth.models import User
 from PIL import Image
-from django.utils.translation import gettext_lazy as _
-from django import forms
 
 
 class Profile(models.Model):
 
-    fc = models.BooleanField()
+    class YearInSchool(models.TextChoices):
+        FRESHMAN = 'FR', _('Freshman')
+        SOPHOMORE = 'SO', _('Sophomore')
+        JUNIOR = 'JR', _('Junior')
+        SENIOR = 'SR', _('Senior')
+        GRADUATE = 'GR', _('Graduate')
+
+    year_in_school = models.CharField(
+        max_length=2,
+        choices=YearInSchool.choices,
+        default=YearInSchool.FRESHMAN,
+    )
+
+    def is_upperclass(self):
+        return self.year_in_school in {
+            self.YearInSchool.JUNIOR,
+            self.YearInSchool.SENIOR,
+        }
+
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     image = models.ImageField(default='default.jpg', upload_to='profile_pics')
+
 
     def __str__(self):
         return f'{self.user.username} Profile'

@@ -11,11 +11,20 @@
         </div>
       </div>
       <form method="POST" enctype="multipart/form-data">
-          {% csrf_token %}
+            {% csrf_token %}
           <fieldset class="form-group">
               <legend class="border-bottom mb-4">Profile Info</legend>
-              {{ u_form|crispy }}
-              {{ p_form|crispy }}
+              {{ u_form.as_p }}
+              {{ p_form.as_p }}
+            <label>
+                {% if checked %}
+                    <input type="checkbox" id="id_fc" name="fc" checked="checked">
+                {% else %}
+                    <input type="checkbox" id="id_fc" name="fc">
+                {% endif %}
+              <span for="id_fc">Enable Face ID</span>
+            </label>
+
           </fieldset>
           <div class="form-group">
               <button class="btn btn-outline-info" type="submit">Update</button>
