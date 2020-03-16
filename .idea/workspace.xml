@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FaceID/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -294,6 +298,7 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/default.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/BIRTHCERT.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/BIRTHCERT.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD_1XDfEGU.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD_1XDfEGU.JPG" afterDir="false" />
@@ -303,6 +308,7 @@
       <change beforePath="$PROJECT_DIR$/static/media/tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/tech.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/vmware-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/vmware-white.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/addName.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/addName.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/base.html" afterDir="false" />
@@ -331,6 +337,7 @@
       <change beforePath="$PROJECT_DIR$/users/migrations/0003_profile_fc.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0003_profile_fc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0004_auto_20200316_0709.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0004_auto_20200316_0709.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0005_auto_20200316_0710.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0005_auto_20200316_0710.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0006_auto_20200316_1412.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0006_auto_20200316_1412.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
@@ -367,6 +374,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -431,7 +439,8 @@
       <workItem from="1584341022965" duration="183000" />
       <workItem from="1584341591567" duration="5452000" />
       <workItem from="1584349073880" duration="2390000" />
-      <workItem from="1584363661874" duration="4246000" />
+      <workItem from="1584363661874" duration="5483000" />
+      <workItem from="1584369416156" duration="701000" />
     </task>
     <servers />
   </component>
@@ -443,10 +452,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584336676693" />
-    <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584078856483">
+    <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584368814098">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1584078856483" />
+    <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1584368814098" />
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584351515740">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

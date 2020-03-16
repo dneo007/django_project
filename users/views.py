@@ -16,7 +16,7 @@ def register(request):
             account = authenticate(username=username, password=raw_password)
             login(request, account)
             if form.cleaned_data['fc']:
-                return redirect('blog-about')
+                return redirect('camera')
 
             messages.success(request, f'Your account has been created! You are now able to log in')
             return redirect('profile')
@@ -41,7 +41,7 @@ def profile(request):
             messages.success(request, f'Your account has been updated!')
 
             if Profile.objects.get(user=request.user).fc:
-                return redirect('blog-about')
+                return redirect('camera')
 
             return redirect('profile')
 
