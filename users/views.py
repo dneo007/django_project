@@ -9,24 +9,25 @@ from .models import Profile
 def register(request):
     if request.method == 'POST':
         form = UserRegisterForm(request.POST)
-        f_form = FacialRecForm(request.POST, instance=request.user.profile)
         if form.is_valid():
             form.save()
-            f_form.save()
             username = form.cleaned_data.get('username')
             raw_password = form.cleaned_data.get('password1')
             account = authenticate(username=username, password=raw_password)
             login(request, account)
+            if form.cleaned_data['fc']:
+                return redirect('blog-about')
+
             messages.success(request, f'Your account has been created! You are now able to log in')
             return redirect('profile')
     else:
         form = UserRegisterForm()
-        f_form = FacialRecForm()
-    return render(request, 'users/register.html', {'form': form, 'f_form': f_form})
+    return render(request, 'users/register.html', {'form': form})
 
 
 @login_required
 def profile(request):
+    checked = Profile.objects.get(user=request.user).fc
     if request.method == 'POST':
         u_form = UserUpdateForm(request.POST, instance=request.user)
         p_form = ProfileUpdateForm(request.POST,
@@ -48,7 +49,6 @@ def profile(request):
         u_form = UserUpdateForm(instance=request.user)
         p_form = ProfileUpdateForm(instance=request.user.profile)
         f_form = FacialRecForm(instance=request.user.profile)
-        checked = Profile.objects.get(user=request.user).fc
 
     context = {
         'u_form': u_form,

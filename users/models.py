@@ -7,7 +7,7 @@ from django import forms
 
 class Profile(models.Model):
 
-    fc = models.BooleanField()
+    fc = models.BooleanField(default=False)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     image = models.ImageField(default='default.jpg', upload_to='profile_pics')
 

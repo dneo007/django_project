@@ -11,7 +11,6 @@ import os
 import cv2
 from PIL import Image
 import numpy as np
-from django.http import HttpResponse
 from django import forms
 
 

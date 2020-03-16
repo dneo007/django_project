@@ -6,7 +6,7 @@ from .models import Profile
 
 class UserRegisterForm(UserCreationForm):
     email = forms.EmailField()
-    fc = forms.BooleanField(required=False, label='')
+    fc = forms.BooleanField(required=False)
 
     class Meta:
         model = User
