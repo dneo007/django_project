@@ -1,0 +1,15 @@
+ {% extends "base.html" %}
+ {% block content %}
+     <br>
+     <div class="container">
+     <h1>Face ID Setup</h1>
+         <br>
+         <h5> Face the camera and press start</h5>
+         <h5> and wait while we learn to recognize your face</h5>
+
+     <form method="post">
+         {% csrf_token %}
+        <button type="submit" name="start" class="waves-effect waves-light btn-large">Start</button>
+     </form>
+     </div>
+{% endblock content%}

@@ -9,41 +9,24 @@ import numpy as np
 from django import forms
 
 
-# Create your views here.
-class nameForm(forms.Form):
-    name = forms.CharField()
-
-
-def addName(request):
-    if request.method == 'POST':
-        form = nameForm(request.POST)
-        if form.is_valid():
-            name = form.cleaned_data['name']
-            print(name)
-
-    form = nameForm()
-    return render(request, 'addName.html', {'form': form})
-
-
-def about(request):
-    if request.method == 'POST':
-        form = nameForm(request.POST)
-        if form.is_valid():
-            name = form.cleaned_data['name']
-            BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-            image_dir = os.path.join(BASE_DIR, "images")
-            os.chdir(image_dir)
-            if os.path.exists(name):
-                return render(request, 'blog/about.html', {'form': form, 'data': 'Name already exists'})
+def setupFaceID(request):
+    if request.method == 'POST' and 'start' in request.POST:
+        name = str(request.user)
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        image_dir = os.path.join(BASE_DIR, "images")
+        os.chdir(image_dir)
+        if not os.path.exists(name):
             os.makedirs(name)
-            os.chdir(name)
-            if cam():
-                return render(request, 'blog/camera.html')
-            else:
-                return render(request, 'blog/about.html', {'form': form, 'data': 'Unable to detect face'})
+        os.chdir(name)
+        count = cam()
 
-    form = nameForm()
-    return render(request, 'blog/about.html', {'form': form})
+        if count >= 5:
+            return render(request, 'FaceID/setup.html', {'message': 'Successfully registered Face ID'})
+        else:
+
+            return render(request, 'FaceID/setup.html', {'message':'We are having difficulties detecting your face, press to continue. Progress: '+str(((count-1)/5)*100) + '%'})
+
+    return render(request, 'FaceID/setup.html')
 
 
 def cam():
@@ -55,16 +38,19 @@ def cam():
     label_ids = {}
     y_labels = []
     x_train = []
-
     count = 1
+    for path in os.listdir('.'):
+        count += 1
+    if count > 5:
+        return count
     cap = cv2.VideoCapture(0)
     cap.set(3, 640)
     cap.set(4, 480)
-    timeout = time.time() + 25  # 10 seconds from now
+    timeout = time.time() + 15  # 10 seconds from now
     while True:
         ret, frame = cap.read()
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)
+        faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=3)
         for (x, y, w, h) in faces:
             img_item = str(count) + ".JPG"
             count += 1
@@ -73,8 +59,8 @@ def cam():
         if count > 5:
             break
         if time.time() > timeout:
-            #shutil.rmtree(os.getcwd(), ignore_errors=False, onerror=None)   THIS LINE CAN DELETED THE WHOLE PROJECT
-            return False
+            # shutil.rmtree(os.getcwd(), ignore_errors=False, onerror=None)   THIS LINE CAN DELETED THE WHOLE PROJECT
+            return count
     ###############################################################################################################
     # Once pictures are taken, go back to base directory and train the machine to recognize the images
     ###############################################################################################################
@@ -111,7 +97,7 @@ def cam():
 
     recognizer.train(x_train, np.array(y_labels))
     recognizer.save("trainer.yml")
-    return True
+    return 6
 
 
 def recognize(request):
