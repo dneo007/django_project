@@ -16,7 +16,7 @@
 <body>
 <nav class="black">
     <div class="container nav-wrapper">
-        <a href="/"> <img class="brand-logo" src= "{% static 'media/vmware-white.png' %}"  width="184" height="120" }} ></a>
+        <a href="/"> <img class="brand-logo" src= "{% static 'media/vmware-white.png' %}"  width="184" height="60" }} ></a>
         <ul id="nav-mobile" class="right">
             <li><a href="/">Home</a></li>
             {% if user.is_authenticated %}
@@ -37,7 +37,49 @@
 {% block content %}
 
 {% endblock content%}
+
+
 </div>
+<footer class="page-footer black" style="bottom:0;left:0;width:100%;">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <img class="brand-logo" src= "{% static 'media/vmware-white.png' %}"  width="184" height="60" }} >
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/sg/company/contact_sales.html">Contact Sales</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/sg/support/services.html">Get Support</a></li>
+                    <li><a class="grey-text text-lighten-3 row1" href="https://www.vmware.com/sg/company.html">About VMware</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://careers.vmware.com/main/">Careers</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/radius">Thought Leadership</a></li>
+                  </ul>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                  <br>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/sg/help/legal.html">Terms of Use</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/help/privacy/california-privacy-rights.html">Your California Privacy Rights</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/sg/help/privacy.html">Privacy</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/sg/help/accessibility.html">Accessibility</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/sg/site_index.html">Site Map</a></li>
+                      <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/sg/help/trademarks.html">Trademarks</a></li>
+                      <li><a class="grey-text text-lighten-3" href="https://www.vmware.com/sg/help.html">Help</a></li>
+
+                  </ul>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 VMware, Inc
+{#            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>#}
+            </div>
+          </div>
+        </footer>
 
 </body>
+
+
+
 </html>

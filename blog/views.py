@@ -14,6 +14,10 @@ import numpy as np
 from django import forms
 
 
+def showProducts(request):
+    return render(request, 'blog/products.html')
+
+
 class nameForm(forms.Form):
     name = forms.CharField()
 

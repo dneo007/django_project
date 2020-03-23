@@ -5,7 +5,7 @@
 <br>
 <br>
 </p>
-<div class="container"></div>
+<div class="container">
   <div class="content-section">
     <form method="POST">
       {% csrf_token %}
@@ -15,6 +15,7 @@
       </fieldset>
       <div class="form-group">
         <button class ="btn btn-outline-info" type="submit">Login</button>
+         <a href="{% url 'FaceIDLogin' %}" class="waves-effect waves-light btn"><i class="material-icons right">face</i>Login with Face ID</a>
         <small class="text-muted ml-2">
           <a href="{% url 'password_reset' %}">Forgot Password</a>
         </small>
@@ -27,4 +28,12 @@
     </div>
   </div>
 </div>
+    <br>
+<br>
+    <br>
+<br>
+    <br>
+<br>
+    <br>
+<br>
 {% endblock content%}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+ {% block content %}
+     <br>
+     <div class="container">
+     <h1>Face ID has been setup successfully</h1>
+         <br>
+         {% csrf_token %}
+        <a href="{% url 'profile' %}" class="waves-effect waves-light btn-large">Return to profile</a>
+
+     </div>
+{% endblock content%}

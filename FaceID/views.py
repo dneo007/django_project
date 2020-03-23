@@ -1,12 +1,11 @@
 import shutil
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 import time
 import pickle
 import os
 import cv2
 from PIL import Image
 import numpy as np
-from django import forms
 
 
 def setupFaceID(request):
@@ -21,7 +20,7 @@ def setupFaceID(request):
         count = cam()
 
         if count >= 5:
-            return render(request, 'FaceID/setup.html', {'message': 'Successfully registered Face ID'})
+            return redirect('success')
         else:
 
             return render(request, 'FaceID/setup.html', {'message':'We are having difficulties detecting your face, press to continue. Progress: '+str(((count-1)/5)*100) + '%'})
@@ -98,51 +97,3 @@ def cam():
     recognizer.train(x_train, np.array(y_labels))
     recognizer.save("trainer.yml")
     return 6
-
-
-def recognize(request):
-    face_cascade = cv2.CascadeClassifier(
-        '/usr/local/lib/python3.7/dist-packages/cv2/data/haarcascade_frontalface_alt2.xml')
-    if not os.path.exists("/home/pi/Desktop/django_project/blog/trainer.yml"):
-        return render(request, 'blog/recognize.html', {'empty': 'No accounts created'})
-
-    recognizer = cv2.face.LBPHFaceRecognizer_create()
-    recognizer.read("/home/pi/Desktop/django_project/blog/trainer.yml")
-
-    with open("/home/pi/Desktop/django_project/blog/labels.pickle", 'rb') as f:
-        og_labels = pickle.load(f)
-        labels = {v: k for k, v in og_labels.items()}
-
-    cap = cv2.VideoCapture(0)
-
-    def make_480p():
-        cap.set(3, 640)
-        cap.set(4, 480)
-
-    make_480p()
-
-    timeout = time.time() + 30  # 15 seconds from now
-    while True:
-        ret, frame = cap.read()
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)
-        for (x, y, w, h) in faces:
-            roi_gray = gray[y:y + h, x:x + w]
-            id_, conf = recognizer.predict(roi_gray)
-            if 45 <= conf <= 85:
-                font = cv2.FONT_HERSHEY_SIMPLEX
-                name = labels[id_]
-                color = (255, 255, 255)
-                stroke = 2
-                cv2.putText(frame, name, (x, y), font, 1, color, stroke, cv2.LINE_AA)
-                return render(request, 'blog/recognize.html', {'data': name})
-
-            # color = (255, 0, 0)  # BGR
-            # stroke = 2
-            # cv2.rectangle(frame, (x, y), (w + x, h + y), color, stroke)
-
-        # cv2.imshow('frame', frame)
-        if time.time() > timeout:
-            return render(request, 'blog/recognize.html', {'data': 'Timed out'})
-
-    return render(request, 'blog/recognize.html', {'data': 'Unable to recognize'})

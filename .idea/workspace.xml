@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/FaceID/setup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/FaceIDsetupSuccess.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/__init__.py" afterDir="false" />
@@ -17,11 +27,6 @@
       <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/images/abc/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/images/abc/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/images/abc/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/images/abc/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/images/abc/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/blog/images/abc/5.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
@@ -300,6 +305,7 @@
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/bigpicture.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/bigpicture.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/tech.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/vmware-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/vmware-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FaceID/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FaceID/setup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
@@ -349,6 +355,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -364,6 +371,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -434,7 +442,17 @@
       <workItem from="1584349073880" duration="2390000" />
       <workItem from="1584363661874" duration="5483000" />
       <workItem from="1584369416156" duration="840000" />
-      <workItem from="1584414534620" duration="12605000" />
+      <workItem from="1584414534620" duration="12875000" />
+      <workItem from="1584505752693" duration="1024000" />
+      <workItem from="1584508920766" duration="1778000" />
+      <workItem from="1584511068202" duration="2731000" />
+      <workItem from="1584514781223" duration="568000" />
+      <workItem from="1584515398727" duration="1847000" />
+      <workItem from="1584545743609" duration="2137000" />
+      <workItem from="1584548155467" duration="147000" />
+      <workItem from="1584595230846" duration="333000" />
+      <workItem from="1584948110556" duration="6218000" />
+      <workItem from="1584955570222" duration="841000" />
     </task>
     <servers />
   </component>
@@ -446,10 +464,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584336676693" />
-    <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584368814098">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="559" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584506504352">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1584368814098" />
+    <state x="559" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.947@0.23.1680.947" timestamp="1584506504352" />
     <state x="578" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584453209715">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -459,5 +478,9 @@
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="668" y="74" key="CommitChangelistDialog2/0.23.1680.956@0.23.1680.956" timestamp="1583995194109" />
+    <state x="822" y="301" width="816" height="550" key="find.popup" timestamp="1584950042696">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="822" y="301" width="816" height="550" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1584950042696" />
   </component>
 </project>

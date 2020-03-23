@@ -7,7 +7,8 @@ from django import forms
 
 class Profile(models.Model):
 
-    fc = models.BooleanField(default=False)
+    fc = models.BooleanField(default=False)  # Enable FaceID
+    fc_setup = models.BooleanField(default=False)  # if FaceID has been set up or not
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     image = models.ImageField(default='default.jpg', upload_to='profile_pics')
 
