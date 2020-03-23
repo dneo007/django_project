@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/blog/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/FaceIDsetupSuccess.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -19,15 +16,33 @@
       <change beforePath="$PROJECT_DIR$/FaceID/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/5.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/5.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/5.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/labels.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/labels.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/trainer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/trainer.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0002_auto_20200318_1544.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0002_auto_20200318_1544.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20200318_1548.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0003_auto_20200318_1548.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
@@ -304,8 +319,6 @@
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT_Q3o8Bot.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT_Q3o8Bot.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/bigpicture.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/bigpicture.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/tech.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/vmware-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/vmware-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/FaceID/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FaceID/setup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
@@ -337,6 +350,7 @@
       <change beforePath="$PROJECT_DIR$/users/migrations/0004_auto_20200316_0709.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0004_auto_20200316_0709.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0005_auto_20200316_0710.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0005_auto_20200316_0710.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0006_auto_20200316_1412.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0006_auto_20200316_1412.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0007_profile_fc_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0007_profile_fc_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
@@ -452,7 +466,7 @@
       <workItem from="1584548155467" duration="147000" />
       <workItem from="1584595230846" duration="333000" />
       <workItem from="1584948110556" duration="6218000" />
-      <workItem from="1584955570222" duration="841000" />
+      <workItem from="1584955570222" duration="1421000" />
     </task>
     <servers />
   </component>
