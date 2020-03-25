@@ -20,7 +20,7 @@
         <ul id="nav-mobile" class="right">
             <li><a href="/">Home</a></li>
             {% if user.is_authenticated %}
-                <li><a class="right" href="{% url 'post-create' %}">New Post</a>
+                <li><a class="right" href="{% url 'post-create' %}">Feedback</a>
                 <li><a class="right" href="{% url 'profile' %}">Profile</a>
                 <li><a class="right" href="{% url 'logout' %}">Logout</a>
             {% else %}

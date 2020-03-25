@@ -70,18 +70,18 @@
 
 
     {% endfor %}
-    <br>
+
     {% if posts.has_other_pages %}
 
       <ul class="pagination">
         {% if posts.has_previous %}
-          <li><a href="?page={{ posts.previous_page_number }}"><i class="material-icons">chevron_left</i></a></li>
+          <li class="waves-effect"><a href="?page={{ posts.previous_page_number }}"><i class="material-icons">chevron_left</i></a></li>
         {% else %}
           <li class="disabled"><span><i class="material-icons">chevron_left</i></span></li>
         {% endif %}
         {% for i in posts.paginator.page_range %}
           {% if posts.number == i %}
-              <li class="active teal lighten-2"><a>{{ i }}</a></li>
+              <li class="active"><a>{{ i }}</a></li>
           {% else %}
             <li><a href="?page={{ i }}">{{ i }}</a></li>
           {% endif %}
@@ -93,7 +93,9 @@
         {% endif %}
       </ul>
     {% endif %}
+    <p>
     <br>
-
+    <br>
+    </p>
     </div>
 {% endblock content %}
