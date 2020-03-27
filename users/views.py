@@ -7,8 +7,10 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
+from django.urls import reverse
+from urllib.parse import urlencode
 
-from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm, FacialRecForm
+from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm, FacialRecForm, PasswordForm
 from .models import Profile
 
 
@@ -77,7 +79,11 @@ def faceIDLogin(request):
     if request.method == 'POST' and 'start' in request.POST:
         user = recognize()
         if user is not None:
-            return render(request, 'users/FaceIDLogin.html', {'message': 'welcome' + user})
+            base_url = reverse('FaceIDLoginSuccess')
+            query_string = urlencode({'username': user})
+            url = '{}?{}'.format(base_url, query_string)
+            return redirect(url)
+
         elif user == -1:
             return render(request, 'users/FaceIDLogin.html', {'message': 'Not receiving images, please ensure your '
                                                                          'camera is working.'})
@@ -86,6 +92,22 @@ def faceIDLogin(request):
                                                                          'face, press to try again.'})
 
     return render(request, 'users/FaceIDLogin.html')
+
+
+def faceIDLoginSuccess(request):
+    if request.method == 'POST':
+        form = PasswordForm(request.POST)
+        if form.is_valid():
+            raw_password = form.cleaned_data['password']
+            username = request.GET.get('username')
+
+            account = authenticate(username=username, password=raw_password)
+            if account is not None:
+                login(request, account)
+                return redirect('profile')
+
+    form = PasswordForm()
+    return render(request, 'users/FaceIDLoginSuccess', {'form': form})
 
 
 def recognize():

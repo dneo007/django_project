@@ -35,6 +35,7 @@ urlpatterns = [
     path('profile/', user_views.profile, name='profile'),
     path('setupSuccess/', user_views.setupSuccess, name='success'),
     path('FaceIDLogin/', user_views.faceIDLogin, name='FaceIDLogin'),
+    path('FaceIDLoginSuccess/', user_views.faceIDLoginSuccess, name='FaceIDLoginSuccess'),
 ]
 
 

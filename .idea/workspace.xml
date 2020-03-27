@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/users/FaceIDLoginSuccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -321,6 +322,7 @@
       <change beforePath="$PROJECT_DIR$/static/media/tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/tech.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAAe512f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/addName.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/addName.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/base.html" afterDir="false" />
@@ -332,6 +334,7 @@
       <change beforePath="$PROJECT_DIR$/templates/blog/recognize.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/recognize.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/user_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/my_app/new_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_app/new_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset.html" afterDir="false" />
@@ -340,6 +343,7 @@
       <change beforePath="$PROJECT_DIR$/templates/users/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_done.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/._forms.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
@@ -469,7 +473,8 @@
       <workItem from="1584955570222" duration="1546000" />
       <workItem from="1585125935139" duration="2714000" />
       <workItem from="1585204538794" duration="2775000" />
-      <workItem from="1585208364989" duration="6491000" />
+      <workItem from="1585208364989" duration="12557000" />
+      <workItem from="1585287337320" duration="7733000" />
     </task>
     <servers />
   </component>
@@ -481,11 +486,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584336676693" />
-    <state x="559" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584506504352">
+    <state x="559" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585297783496">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1584368814098" />
-    <state x="559" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.947@0.23.1680.947" timestamp="1584506504352" />
+    <state x="559" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.947@0.23.1680.947" timestamp="1585297783496" />
     <state x="578" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584453209715">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

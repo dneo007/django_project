@@ -41,3 +41,7 @@ class FacialRecForm(forms.ModelForm):
     class Meta:
         model = Profile
         fields = ['fc']
+
+
+class PasswordForm(forms.Form):
+    password = forms.CharField(widget=forms.TextInput(attrs={'autocomplete': 'off'}))

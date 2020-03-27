@@ -1,10 +1,10 @@
 import shutil
-
+from django.db import models
 from django.shortcuts import render, get_object_or_404
 from .models import post
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AnonymousUser
 from django import forms
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
@@ -15,6 +15,14 @@ class PostForm(forms.ModelForm):
         fields = ['content']
 
 
+class GuestForm(forms.ModelForm):
+    name = forms.TimeField()
+
+    class Meta:
+        model = post
+        fields = ['content', 'name']
+
+
 def showProducts(request):
     return render(request, 'blog/products.html')
 
@@ -22,6 +30,8 @@ def showProducts(request):
 # fCreate your views here.
 def home(request):
     form = PostForm(request.POST)
+    guestForm = GuestForm(request.POST)
+
     post_list = post.objects.all().order_by('-date_posted')
     page = request.GET.get('page', 1)
 
@@ -39,9 +49,16 @@ def home(request):
             form.instance.author = request.user
             form.save()
 
+        if guestForm.is_valid():
+            request.user = AnonymousUser()
+            guestForm.instance.author = request.user
+            guestForm.save()
+
+
     context = {
         'posts': posts  # pass in posts dict to 'posts' key in context dict
-        , 'form': form
+        , 'form': form,
+        'guest': guestForm
     }
 
     return render(request, 'blog/home.html', context)  # pass in the context dict
