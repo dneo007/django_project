@@ -311,7 +311,6 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/._tech.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/default.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/BIRTHCERT.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/BIRTHCERT.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD.JPG" afterDir="false" />
@@ -394,11 +393,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/media/face_images" />
       <recent name="$PROJECT_DIR$/static/media/profile_pics" />
       <recent name="$PROJECT_DIR$/static/media" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -472,10 +471,7 @@
       <workItem from="1585204538794" duration="2775000" />
       <workItem from="1585208364989" duration="12557000" />
       <workItem from="1585287337320" duration="8100000" />
-      <workItem from="1585313676717" duration="5324000" />
-      <workItem from="1585323471560" duration="303000" />
-      <workItem from="1585378739159" duration="849000" />
-      <workItem from="1585465448875" duration="9516000" />
+      <workItem from="1585313676717" duration="294000" />
     </task>
     <servers />
   </component>

@@ -6,20 +6,23 @@ import os
 import cv2
 from PIL import Image
 import numpy as np
+from my_project.settings import MEDIA_ROOT
+from users import models
 
 
 def setupFaceID(request):
     if request.method == 'POST' and 'start' in request.POST:
-        name = str(request.user)
-        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        image_dir = os.path.join(BASE_DIR, "images")
+        id = str(request.user.id)
+        BASE_DIR = MEDIA_ROOT
+        image_dir = os.path.join(BASE_DIR, "face_images")
         os.chdir(image_dir)
-        if not os.path.exists(name):
-            os.makedirs(name)
-        os.chdir(name)
-        count = cam()
+        if not os.path.exists(id):
+            os.makedirs(id)
+        os.chdir(id)
+        count = cam(request)
 
         if count >= 5:
+
             return redirect('success')
         else:
 
@@ -28,7 +31,7 @@ def setupFaceID(request):
     return render(request, 'FaceID/setup.html')
 
 
-def cam():
+def cam(request):
     face_cascade = cv2.CascadeClassifier(
         '/usr/local/lib/python3.7/dist-packages/cv2/data/haarcascade_frontalface_alt2.xml')
     recognizer = cv2.face.LBPHFaceRecognizer_create()
@@ -40,6 +43,7 @@ def cam():
     count = 1
     for path in os.listdir('.'):
         count += 1
+    print(count)
     if count > 5:
         return count
     cap = cv2.VideoCapture(0)
@@ -51,9 +55,16 @@ def cam():
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=3)
         for (x, y, w, h) in faces:
-            img_item = str(count) + ".JPG"
+            img_item = 'face_images/' + str(request.user.id) + '/' + str(count) + ".JPG"
+            fileName = str(count) + ".JPG"
             count += 1
-            cv2.imwrite(img_item, gray)
+            cv2.imwrite(fileName, gray)
+            user = models.Profile.objects.get(user=request.user)
+            user.fc_pic = img_item
+            user.save()
+
+            obj = models.FcPic.objects.create(profile=user, pic=img_item)
+            obj.save()
         # cv2.imshow('frame', frame)
         if count > 5:
             break
