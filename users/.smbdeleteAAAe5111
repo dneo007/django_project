@@ -78,16 +78,19 @@ def setupSuccess(request):
 
 def faceIDLogin(request):
     if request.method == 'POST' and 'start' in request.POST:
-        userID = recognize()
-
-        if userID != -1 and userID is not None:
+        user = recognize()
+        try:
+            username = User.objects.get(id=user).username
+            print(username)
+        except User.DoesNotExist:
+            print("Unknown user")
+        if user != -1 and user is not None:
             base_url = reverse('FaceIDLoginSuccess')
-            user = User.objects.get(id=userID).username
             query_string = urlencode({'username': user})
             url = '{}?{}'.format(base_url, query_string)
             return redirect(url)
 
-        elif userID == -1:
+        elif user == -1:
             return render(request, 'users/FaceIDLogin.html', {'message': 'Not receiving images, please ensure your '
                                                                          'camera is working.'})
         else:
