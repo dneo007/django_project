@@ -28,6 +28,7 @@ def showProducts(request):
 
 
 # fCreate your views here.
+
 def home(request):
     form = PostForm(request.POST)
     guestForm = GuestForm(request.POST)
