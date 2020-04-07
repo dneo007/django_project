@@ -47,7 +47,7 @@
               </div>
     </form>
         {% else %}
-    Log in or register to post a feedback
+        <a class="ml-2" href="{% url 'login' %}" >Log in</a> or <a class="ml-2" href="{% url 'register' %}" >register</a> to post a feedback
         <br>
 
     {% endif %}

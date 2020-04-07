@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/benjaminchen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.smbdeleteAAAe4b67" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.smbdeleteAAAe4b67" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/benjaminchen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/benjaminchen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -14,6 +15,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/._views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/._views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/.smbdeleteAAAe3bb8" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/.smbdeleteAAAe3bb8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/apps.py" afterDir="false" />
@@ -35,6 +38,7 @@
       <change beforePath="$PROJECT_DIR$/FaceID/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
@@ -311,6 +315,8 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/HCI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/HCI.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/customer_success.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/customer_success.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/default.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/face_images/7/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/face_images/7/1.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/face_images/7/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/face_images/7/2.JPG" afterDir="false" />
@@ -324,10 +330,16 @@
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT_Q3o8Bot.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT_Q3o8Bot.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/profile_pics/bigpicture.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/bigpicture.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/tanzu.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/tanzu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/tech.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/trainer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/trainer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/vmware-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/vmware-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FaceID/.smbdeleteAAAe3df0" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FaceID/.smbdeleteAAAe3df0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FaceID/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FaceID/setup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAAe3309" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAAe3309" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAAe73dc" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAAe73dc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/addName.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/addName.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/base.html" afterDir="false" />
@@ -340,6 +352,9 @@
       <change beforePath="$PROJECT_DIR$/templates/blog/recognize.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/recognize.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/user_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/my_app/new_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_app/new_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDLoginSuccess" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDLoginSuccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDsetupSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDsetupSuccess.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset.html" afterDir="false" />
@@ -348,6 +363,9 @@
       <change beforePath="$PROJECT_DIR$/templates/users/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_done.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAA142cbd" beforeDir="false" afterPath="$PROJECT_DIR$/users/.smbdeleteAAA142cbd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAA142ccf" beforeDir="false" afterPath="$PROJECT_DIR$/users/.smbdeleteAAA142ccf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAAe5111" beforeDir="false" afterPath="$PROJECT_DIR$/users/.smbdeleteAAAe5111" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
