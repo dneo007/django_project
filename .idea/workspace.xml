@@ -3,27 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/._views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FaceID/.smbdeleteAAAe3df0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/FaceID/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FaceID/setup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/addName.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAA142cbd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAA142ccf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAAe5111" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +172,7 @@
       <workItem from="1587981218764" duration="182000" />
       <workItem from="1587981425093" duration="9587000" />
       <workItem from="1587996959861" duration="31000" />
-      <workItem from="1588042570560" duration="1963000" />
+      <workItem from="1588042570560" duration="5247000" />
     </task>
     <servers />
   </component>
@@ -215,5 +213,9 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="822" y="301" width="816" height="550" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1584950042696" />
+    <state x="435" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1588049171649">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="435" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1588049171649" />
   </component>
 </project>

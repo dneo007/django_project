@@ -6,8 +6,6 @@ services:
       - "80:80"
     volumes:
     - .:/django
-    depends_on:
-      - db
 
 
   db:

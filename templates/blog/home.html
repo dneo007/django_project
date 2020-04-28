@@ -63,28 +63,29 @@
     <br>
     {% if posts.has_other_pages %}
 
-      <ul class="pagination">
+        <clr-dg-footer>
+    <clr-dg-pagination>
         {% if posts.has_previous %}
-          <li><a href="?page={{ posts.previous_page_number }}"><i class="material-icons">chevron_left</i></a></li>
+          <a href="?page={{ posts.previous_page_number }}"> < </a>
         {% else %}
-          <li class="disabled"><span><i class="material-icons">chevron_left</i></span></li>
+       <span> < </span>
         {% endif %}
         {% for i in posts.paginator.page_range %}
           {% if posts.number == i %}
-              <li class="active teal lighten-2"><a>{{ i }}</a></li>
+              <a><b>{{ i }}</b></a>
           {% else %}
-            <li><a href="?page={{ i }}">{{ i }}</a></li>
+            <a href="?page={{ i }}">{{ i }}</a>
           {% endif %}
         {% endfor %}
         {% if posts.has_next %}
-          <li><a href="?page={{ posts.next_page_number }}"><i class="material-icons">chevron_right</i></a></li>
+          <a href="?page={{ posts.next_page_number }}"> > </a>
         {% else %}
-          <li class="disabled"><span><i class="material-icons">chevron_right</i></span></li>
+          <span> > </span>
         {% endif %}
-      </ul>
     {% endif %}
     <br>
-
+  </clr-dg-pagination>
+</clr-dg-footer>
         </div>
         <nav class="sidenav">
         <section class="sidenav-content">

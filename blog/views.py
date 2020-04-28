@@ -23,10 +23,6 @@ class GuestForm(forms.ModelForm):
         fields = ['content', 'name']
 
 
-def showProducts(request):
-    return render(request, 'blog/products.html')
-
-
 # fCreate your views here.
 
 def home(request):
