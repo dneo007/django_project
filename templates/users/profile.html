@@ -1,16 +1,33 @@
 {% extends "base.html" %}
-{% load crispy_forms_tags %}
+{% load static %}
 {% block content %}
+<div class="main-container">
+    <header class="header-6">
+    <div class="branding">
+        <a href="/"> <img class="brand-logo" src= "{% static 'media/vmware-white.png' %}"  width="184" height="60" }} ></a>
+    </div>
+    <div class="header-nav">
+
+        <a href='/' class="nav-link nav-text">Home</a>
+        {% if user.is_authenticated %}
+            <a class="nav-link nav-text" href="{% url 'post-create' %}">Feedback</a>
+            <a class="active nav-link nav-text" href="{% url 'profile' %}">Profile</a>
+            <a class="nav-link nav-text" href="{% url 'logout' %}">Logout</a>
+
+        {% else %}
+            <a href="{% url 'login' %}" class="nav-link nav-text">Login</a>
+            <a href="{% url 'register' %}" class="nav-link nav-text"> Register</a>
+        {% endif %}
+
+    </div>
+
+    </header>
+
     <br>
-    <div class="container">
-    <div class="content-section">
-      <div class="media">
+    <div class="content-container">
+        <div class="content-area">
         <img class="circle" src="{{ user.profile.image.url }}" height="150" width="150">
-        <div class="media-body">
-          <h2 class="account-heading">{{ user.username }}</h2>
-          <p class="text-secondary">{{ user.email }}</p>
-        </div>
-      </div>
+
       <form method="POST" enctype="multipart/form-data">
             {% csrf_token %}
           <fieldset class="form-group">
@@ -33,4 +50,5 @@
       </form>
     </div>
     </div>
+</div>
 {% endblock content %}

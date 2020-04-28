@@ -1,59 +1,43 @@
 {% extends "base.html" %}
+
+
+
+
 {% block content %}
-<div class="container">
 
+    <div class="main-container">
 
-</div>
-
-    <div class="container">
-    <div class="row">
-        <div class="col s6">
-          <div class="card">
-            <div class="card-image">
-              <img src="static/media/tech.jpg" height="300" width="600">
-                </div>
-                <div class="card-action">
-              <a href="products/" class="blue-grey-text">View our products</a>
-            </div>
-      </div>
+<header class="header-6">
+    <div class="branding">
+        <a href="/"> <img class="brand-logo" src= 'media/vmware-white.png'  width="184" height="60" }} ></a>
     </div>
+    <div class="header-nav">
 
-        <div class="col s6">
-          <div class="card">
-            <div class="card-image">
-              <img src="static/media/customer_success.jpg" height="300" width="600">
-                </div>
-                    <div class="card-action">
-                      <a href="https://www.vmware.com/sg/company/customers.html#" class="blue-grey-text"> Customer Success Stories</a>
-                    </div>
+        <a href='/' class="active nav-link nav-text">Home</a>
+        {% if user.is_authenticated %}
+            <a class="nav-link nav-text" href="{% url 'post-create' %}">Feedback</a>
+            <a class="nav-link nav-text" href="{% url 'profile' %}">Profile</a>
+            <a class="nav-link nav-text" href="{% url 'logout' %}">Logout</a>
 
-      </div>
-    </div>
-    </div>
-</div>
-
-    
-    <div class="container">
-    <h2 style="text-align: left"><br>Feedback</h2>
-    {% if user.is_authenticated %}
-    <form method="post">
-        {% csrf_token %}
-              <div class="row">
-                <div class="input-field col s12">
-                  <textarea name="content" id="id_content" class="materialize-textarea"  required=""></textarea>
-                  <label for="id_content">Enter your feedback here</label>
-                    <button type="submit" class="btn waves-effect waves-light">submit <i class="material-icons right">send</i></button>
-                </div>
-              </div>
-    </form>
         {% else %}
-        <a class="ml-2" href="{% url 'login' %}" >Log in</a> or <a class="ml-2" href="{% url 'register' %}" >register</a> to post a feedback
-        <br>
+            <a href="{% url 'login' %}" class="nav-link nav-text">Login</a>
+            <a href="{% url 'register' %}" class="nav-link nav-text"> Register</a>
+        {% endif %}
 
-    {% endif %}
+    </div>
+    <div class="header-actions">
+        <a href="javascript://" class="nav-link nav-icon" aria-label="settings">
+            <clr-icon shape="cog"></clr-icon>
+        </a>
+    </div>
+</header>
+
+    <div class="content-container">
+        <div class="content-area">
+
+    <h2 style="text-align: left"><br>Feedback</h2>
 
 
-    <br>
 
     {% for post in posts %}
 
@@ -101,5 +85,18 @@
     {% endif %}
     <br>
 
+        </div>
+        <nav class="sidenav">
+        <section class="sidenav-content">
+            <a href="https://www.vmware.com/sg/products.html" class="nav-link">
+                View our products
+            </a>
+            <a href="https://www.vmware.com/sg/company/customers.html#" class="nav-link">
+                Customer success stories
+            </a>
+        </section>
+        </nav>
     </div>
+</div>
+
 {% endblock content %}

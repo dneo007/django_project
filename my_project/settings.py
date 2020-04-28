@@ -142,3 +142,5 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'djangowad@gmail.com'
 EMAIL_HOST_PASSWORD = 'zeklarfrzsobfnsc'
+
+CORS_ORIGIN_ALLOW_ALL = True

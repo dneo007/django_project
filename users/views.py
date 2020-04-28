@@ -1,7 +1,6 @@
 import os
 import pickle
 import time
-
 import cv2
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
@@ -13,6 +12,9 @@ from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm, FacialRe
 from .models import Profile
 from django.contrib.auth.models import User
 from my_project.settings import MEDIA_ROOT
+
+from django.http.response import JsonResponse, HttpResponse
+from django.views.decorators.csrf import csrf_exempt
 
 
 def register(request):
@@ -168,3 +170,5 @@ def recognize():
 
         if time.time() > timeout:
             return None
+
+

@@ -2,393 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.smbdeleteAAA102c6c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.smbdeleteAAAe4b67" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.smbdeleteAAAe4b67" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/benjaminchen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/benjaminchen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/._views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/._views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/.smbdeleteAAAe3bb8" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/.smbdeleteAAAe3bb8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/Bleh/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/Bleh/5.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben/5.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/images/ben10/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/images/ben10/5.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceID/._views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0002_auto_20200318_1544.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0002_auto_20200318_1544.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20200318_1548.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0003_auto_20200318_1548.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0004_auto_20200327_0931.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0004_auto_20200327_0931.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_project/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/asgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_project/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-api.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-api.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-api.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-element.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-element.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-element.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-element.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-element.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-lite.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-lite.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-sfx.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons-sfx.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/clr-icons.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/interfaces/icon-interfaces.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/interfaces/icon-interfaces.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/interfaces/icon-interfaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/interfaces/icon-interfaces.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/interfaces/icon-interfaces.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/interfaces/icon-interfaces.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/all-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/all-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/all-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/all-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/all-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/all-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/all-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/all-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/chart-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/chart-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/chart-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/chart-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/chart-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/chart-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/chart-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/chart-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/commerce-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/commerce-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/commerce-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/commerce-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/commerce-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/commerce-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/commerce-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/commerce-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/core-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/core-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/core-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/core-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/core-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/core-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/core-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/core-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/essential-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/essential-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/essential-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/essential-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/essential-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/essential-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/essential-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/essential-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/media-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/media-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/media-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/media-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/media-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/media-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/media-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/media-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/social-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/social-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/social-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/social-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/social-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/social-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/social-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/social-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/technology-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/technology-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/technology-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/technology-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/technology-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/technology-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/technology-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/technology-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/text-edit-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/text-edit-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/text-edit-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/text-edit-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/text-edit-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/text-edit-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/text-edit-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/text-edit-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/travel-shapes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/travel-shapes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/travel-shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/travel-shapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/travel-shapes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/travel-shapes.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/travel-shapes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/shapes/travel-shapes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/utils/descriptor-config.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/utils/descriptor-config.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/utils/descriptor-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/utils/descriptor-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/utils/descriptor-config.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/utils/descriptor-config.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/utils/shape-template-observer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/utils/shape-template-observer.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@clr/icons/utils/svg-tag-generator.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@clr/icons/utils/svg-tag-generator.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/DEVELOPING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/DEVELOPING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/custom-elements.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/custom-elements.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/custom-elements.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/custom-elements.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/externs/custom-elements.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/externs/custom-elements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/AlreadyConstructedMarker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/AlreadyConstructedMarker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/CustomElementRegistry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/CustomElementRegistry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/CustomElementState.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/CustomElementState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Deferred.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Deferred.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/DocumentConstructionObserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/DocumentConstructionObserver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Document.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/DocumentFragment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/DocumentFragment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Element.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/HTMLElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/HTMLElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Interface/ChildNode.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Interface/ChildNode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Interface/ParentNode.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Interface/ParentNode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Native.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Native.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Patch/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Utilities.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/Utilities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/custom-elements.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/custom-elements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/native-shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/src/native-shim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/clone-contenteditable.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/clone-contenteditable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/constructor-context-dies-before-super.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/constructor-context-dies-before-super.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/constructor-context-dies-cross-context-call.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/constructor-context-dies-cross-context-call.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/constructor-may-poach-upgrading-element.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/constructor-may-poach-upgrading-element.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/define-context-dies-retrieving-prototype.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/define-context-dies-retrieving-prototype.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/gc.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/gc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/adopted-callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/adopted-callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/async-imports.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/async-imports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/async-nested-imports.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/async-nested-imports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/attribute-changed-callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/attribute-changed-callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/circular-imports.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/circular-imports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/create-element-in-import.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/create-element-in-import.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/detached-import.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/detached-import.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/inner-html-in-import.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/inner-html-in-import.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/nested-imports.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/nested-imports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/adopted-nodes.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/adopted-nodes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/async-component.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/async-component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/async-nested-component.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/async-nested-component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/attribute-parsercreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/attribute-parsercreate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/attribute-upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/attribute-upgrade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/circular-level1.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/circular-level1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/circular-level2.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/circular-level2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/create-element.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/create-element.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/import-custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/import-custom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/inner-html.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/inner-html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/nested-level1.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/nested-level1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/nested-level2.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/nested-level2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/nested-level3.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/nested-level3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/resources/upgrade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/sync-create-element-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/sync-create-element-order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/upgrade-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/imports/upgrade-order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/isolated-worlds.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/isolated-worlds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/adopt-node.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/adopt-node.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/construct.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/construct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/create-element-defined-asynchronous.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/create-element-defined-asynchronous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/create-element-defined-synchronous.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/create-element-defined-synchronous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/create-element-inside-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/create-element-inside-template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/custom-elements-registry/get.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/custom-elements-registry/get.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/custom-elements-registry/when_defined.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/custom-elements-registry/when_defined.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/define-element.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/define-element.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/doc-without-browsing-context.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/doc-without-browsing-context.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/insert-a-node-try-to-upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/insert-a-node-try-to-upgrade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/parsing.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/parsing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/remove-element.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/remove-element.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/report-the-exception.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/report-the-exception.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/resources/custom-elements-helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/resources/custom-elements-helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/selectors/pseudo-class-defined.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/selectors/pseudo-class-defined.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/state-failed-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/state-failed-create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/state-failed-upgrade-expected.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/state-failed-upgrade-expected.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/state-failed-upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/state-failed-upgrade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/upgrade-element.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/spec/upgrade-element.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/v0-v1-interop.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/custom-elements/v0-v1-interop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/Ahem.otf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/Ahem.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/Ahem.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/Ahem.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/Ahem.woff" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/Ahem.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/Ahem.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/Ahem.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/AhemNoXHeight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/AhemNoXHeight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/SpaceOnly.otf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/SpaceOnly.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebIDLParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebIDLParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher100.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher100.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher200.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher200.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher300.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher300.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher500.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher500.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher600.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher600.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher700.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher700.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher800.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher800.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/WebKitWeightWatcher900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/accessibility-helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/accessibility-helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/ahem.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/ahem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/bluetooth/bluetooth-helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/bluetooth/bluetooth-helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/bluetooth/connect-iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/bluetooth/connect-iframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/bluetooth/requestDevice-in-iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/bluetooth/requestDevice-in-iframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/check-layout-th.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/check-layout-th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/check-layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/check-layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/dump-as-markup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/dump-as-markup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/fixed-pitch-font/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/fixed-pitch-font/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/fixed-pitch-font/README" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/fixed-pitch-font/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/fixed-pitch-font/test-fixed.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/fixed-pitch-font/test-fixed.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/fixed-pitch-font/test.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/fixed-pitch-font/test.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/gc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/gc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/idlharness.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/idlharness.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/intersection-observer-helper-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/intersection-observer-helper-functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/intersection-observer-subframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/intersection-observer-subframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/intersection-observer-timestamp-subframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/intersection-observer-timestamp-subframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/js-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/js-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/magnitude-perf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/magnitude-perf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/mojo-helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/mojo-helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/opensans/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/opensans/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/opensans/OpenSans-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/opensans/OpenSans-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/opensans/README" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/opensans/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/run-after-layout-and-paint.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/run-after-layout-and-paint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/testharness.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/testharness.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/testharness.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/testharness.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/testharnessreport.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/testharnessreport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/vendor-prefix.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/vendor-prefix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/window-postmessage-open-close.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/chromium/resources/window-postmessage-open-close.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Document/createElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Document/createElement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Document/createElementNS.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Document/createElementNS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Document/importNode.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Document/importNode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Document/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Document/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/attachShadow.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/attachShadow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/innerHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/innerHTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/insertAdjacentElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/insertAdjacentElement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/removeAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/removeAttribute.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/removeAttributeNS.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/removeAttributeNS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/setAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/setAttribute.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/setAttributeNS.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Element/setAttributeNS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/HTMLElement/constructor.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/HTMLElement/constructor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/HTMLElement/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/HTMLElement/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Interface/ChildNode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Interface/ChildNode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Interface/ParentNode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Interface/ParentNode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Interface/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Interface/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/appendChild.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/appendChild.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/cloneNode.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/cloneNode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/insertBefore.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/insertBefore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/removeChild.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/removeChild.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/replaceChild.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/Node/replaceChild.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/async-import.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/async-import.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/imported-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/imported-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/imports.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/imports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/incorrectly-imported-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/incorrectly-imported-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/defaultSyncFlush.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/defaultSyncFlush.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/defineDoesNotWalk.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/defineDoesNotWalk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/flushCallbackIsCalled.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/flushCallbackIsCalled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/multipleDefineCalls.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/multipleDefineCalls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/multipleFlushCallbacks_blocking.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/multipleFlushCallbacks_blocking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/multipleFlushCallbacks_ordering.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/multipleFlushCallbacks_ordering.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/whenDefined_after.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/whenDefined_after.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/whenDefined_before.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/polyfillWrapFlushCallback/whenDefined_before.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/shim.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/shim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/sub-import.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/html/sub-import.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/closure.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/closure.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/instanceof.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/instanceof.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/reactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/reactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/registry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/registry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/shadow-dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/shadow-dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/typescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/upgrade.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/js/upgrade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/tests/new/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/wct.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webcomponents/custom-elements/wct.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/HCI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/HCI.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/customer_success.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/customer_success.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/default.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/face_images/7/1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/face_images/7/2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/face_images/7/3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/face_images/7/4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/face_images/7/5.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/labels.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/labels.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/profile_pics/BIRTHCERT.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/BIRTHCERT.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD_1XDfEGU.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/IC_CARD_1XDfEGU.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT_Q3o8Bot.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/PASSPORT_Q3o8Bot.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/profile_pics/bigpicture.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/profile_pics/bigpicture.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/tanzu.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/tanzu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/tech.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/trainer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/trainer.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/vmware-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/vmware-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/FaceID/.smbdeleteAAAe3df0" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FaceID/.smbdeleteAAAe3df0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/FaceID/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FaceID/setup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAA141c80" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAAe3309" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAAe3309" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/.smbdeleteAAAe73dc" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/.smbdeleteAAAe73dc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/addName.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/addName.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/camera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/addName.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/recognize.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/recognize.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/user_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/my_app/new_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_app/new_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDLoginSuccess" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDLoginSuccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDsetupSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDsetupSuccess.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_done.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAA142cbd" beforeDir="false" afterPath="$PROJECT_DIR$/users/.smbdeleteAAA142cbd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAA142ccf" beforeDir="false" afterPath="$PROJECT_DIR$/users/.smbdeleteAAA142ccf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAAe5111" beforeDir="false" afterPath="$PROJECT_DIR$/users/.smbdeleteAAAe5111" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAA142cbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAA142ccf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/.smbdeleteAAAe5111" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0002_auto_20200311_0321.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0002_auto_20200311_0321.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0003_profile_fc.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0003_profile_fc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0004_auto_20200316_0709.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0004_auto_20200316_0709.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0005_auto_20200316_0710.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0005_auto_20200316_0710.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0006_auto_20200316_1412.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0006_auto_20200316_1412.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0007_profile_fc_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0007_profile_fc_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0008_profile_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0008_profile_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0009_remove_profile_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0009_remove_profile_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0010_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0010_picture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0011_auto_20200329_0759.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0011_auto_20200329_0759.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0012_delete_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0012_delete_picture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0013_profile_fc_pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0013_profile_fc_pic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0014_auto_20200329_0935.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0014_auto_20200329_0935.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0015_auto_20200329_1023.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0015_auto_20200329_1023.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -411,7 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Yt10hS1FDUw2QIUUqPoIGGuMNA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -434,7 +70,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="my_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="my_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -458,6 +94,19 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -515,13 +164,31 @@
       <workItem from="1585547948724" duration="1447000" />
       <workItem from="1585550838130" duration="2182000" />
       <workItem from="1585741331160" duration="2533000" />
+      <workItem from="1586425140002" duration="13350000" />
+      <workItem from="1586505637864" duration="555000" />
+      <workItem from="1586516778592" duration="1371000" />
+      <workItem from="1586764763175" duration="1463000" />
+      <workItem from="1587371512172" duration="24000" />
+      <workItem from="1587371755455" duration="101000" />
+      <workItem from="1587375886793" duration="4823000" />
+      <workItem from="1587981218764" duration="182000" />
+      <workItem from="1587981425093" duration="9587000" />
+      <workItem from="1587996959861" duration="31000" />
+      <workItem from="1588042570560" duration="1963000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="566" y="134" key="#Inspections" timestamp="1586452996073">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="566" y="134" key="#Inspections/0.23.1680.947@0.23.1680.947" timestamp="1586452996073" />
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584336676693">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -531,11 +198,15 @@
     </state>
     <state x="559" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1584368814098" />
     <state x="559" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.947@0.23.1680.947" timestamp="1585297783496" />
-    <state x="578" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585551562543">
+    <state x="578" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588045960290">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584351515740" />
-    <state x="578" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1585551562543" />
+    <state x="578" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1588045960290" />
+    <state x="394" y="184" key="#docker-compose.yml:_Compose_Deployment" timestamp="1587376850442">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="394" y="184" key="#docker-compose.yml:_Compose_Deployment/0.23.1680.947@0.23.1680.947" timestamp="1587376850442" />
     <state x="668" y="74" key="CommitChangelistDialog2" timestamp="1583995194109">
       <screen x="0" y="23" width="1680" height="956" />
     </state>

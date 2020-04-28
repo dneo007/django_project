@@ -1,6 +1,31 @@
 {% extends "base.html" %}
+{% load static %}
 {%block content%}
-    <div class="container">
+ <div class="main-container">
+<header class="header-6">
+<div class="branding">
+    <a href="/"> <img class="brand-logo" src= "{% static 'media/vmware-white.png' %}"  width="184" height="60" }} ></a>
+</div>
+<div class="header-nav">
+
+    <a href='/' class="nav-link nav-text">Home</a>
+    {% if user.is_authenticated %}
+        <a class="nav-link nav-text" href="{% url 'post-create' %}">Feedback</a>
+        <a class="active nav-link nav-text" href="{% url 'profile' %}">Profile</a>
+        <a class="nav-link nav-text" href="{% url 'logout' %}">Logout</a>
+
+    {% else %}
+        <a href="{% url 'login' %}" class="nav-link nav-text">Login</a>
+        <a href="{% url 'register' %}" class="nav-link nav-text"> Register</a>
+    {% endif %}
+
+</div>
+
+</header>
+<br>
+
+   <div class="content-container">
+        <div class="content-area">
 <h4>You have been logged out </h4>
 <div class="border-top pt-3">
   <small class="text-muted">
@@ -8,28 +33,6 @@
   </small>
 </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+   </div>
+ </div>
 {% endblock content%}

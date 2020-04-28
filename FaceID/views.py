@@ -20,9 +20,9 @@ def setupFaceID(request):
             os.makedirs(id)
         os.chdir(id)
         count = cam(request)
-
-        if count >= 5:
-
+        if count is None:
+            return render(request, 'FaceID/setup.html', {'message': 'No camera detected'})
+        elif count >= 5:
             return redirect('success')
         else:
 
@@ -47,11 +47,14 @@ def cam(request):
     if count > 5:
         return count
     cap = cv2.VideoCapture(0)
+    if cap is None or not cap.isOpened():
+        return None
     cap.set(3, 640)
     cap.set(4, 480)
     timeout = time.time() + 15  # 10 seconds from now
     while True:
         ret, frame = cap.read()
+
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=3)
         for (x, y, w, h) in faces:

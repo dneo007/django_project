@@ -14,4 +14,4 @@ class post(models.Model):
         return self.content  # print out title of objects instead of number of objects returned
 
     def get_absolute_url(self):
-        return reverse('post-detail', kwargs={'pk': self.pk})
+        return reverse('blog-home')
