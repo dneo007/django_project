@@ -3,25 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/FaceID/.smbdeleteAAAe3df0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/FaceID/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FaceID/setup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/products.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDLogin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +156,7 @@
       <workItem from="1587981425093" duration="9587000" />
       <workItem from="1587996959861" duration="31000" />
       <workItem from="1588042570560" duration="5458000" />
+      <workItem from="1588253316630" duration="576000" />
     </task>
     <servers />
   </component>

@@ -52,7 +52,11 @@
             </div>
             </div>
             <div class="card-action">
+                {% if post.author == user %}
+                    <a class="article-content" href="{% url 'post-update' post.id %}" >{{ post.content }}</a>
+                {% else %}
                  <p class="article-content">{{ post.content }}</p>
+                {% endif %}
             </div>
           </div>
         </div>
