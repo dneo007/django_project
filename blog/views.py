@@ -3,19 +3,10 @@ from .models import post
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
-from django import forms
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
-class PostForm(forms.ModelForm):
-    class Meta:
-        model = post
-        fields = ['content']
-
-
 def home(request):
-    form = PostForm(request.POST)
-
     post_list = post.objects.all().order_by('-date_posted')
     page = request.GET.get('page', 1)
 
@@ -28,15 +19,8 @@ def home(request):
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
 
-    if request.method == 'POST':
-        if form.is_valid():
-            form.instance.author = request.user
-            form.save()
-
-
     context = {
         'posts': posts  # pass in posts dict to 'posts' key in context dict
-        , 'form': form,
     }
 
     return render(request, 'blog/home.html', context)  # pass in the context dict
