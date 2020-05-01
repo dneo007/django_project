@@ -1,16 +1,40 @@
 {% extends "base.html"%}
+{% load static %}
 {%block content%}
-  <div class="content-section">
+        <div class="main-container">
+    <header class="header-6">
+        <div class="branding">
+            <a href="/"> <img class="brand-logo" src= "{% static 'media/vmware-white.png' %}"  width="184" height="60" }} ></a>
+        </div>
+        <div class="header-nav">
+
+            <a href='/' class="nav-link nav-text">Home</a>
+            {% if user.is_authenticated %}
+                <a class="active nav-link nav-text" href="{% url 'post-create' %}">Feedback</a>
+                <a class="nav-link nav-text" href="{% url 'profile' %}">Profile</a>
+                <a class="nav-link nav-text" href="{% url 'logout' %}">Logout</a>
+
+            {% else %}
+                <a href="{% url 'login' %}" class="nav-link nav-text">Login</a>
+                <a href="{% url 'register' %}" class="nav-link nav-text"> Register</a>
+            {% endif %}
+
+        </div>
+
+    </header>
+  <div class="content-container">
+        <div class="content-area">
     <form method="POST">
       {% csrf_token %}
       <fieldset class="form-group">
-        <legend class="border-bottom mb-4">Delete Post</legend>
-        <h2>Are you sure you want to delete the post "{{ object.title }}"</h2>
+        <h2>Are you sure you want to delete the post "{{ object.content }}"</h2>
       </fieldset>
       <div class="form-group">
-        <button class ="btn btn-outline-danger" type="submit">Yes, Delete</button>
-        <a class ="btn btn-outline-info" href="{% url 'post-detail' object.id %}">Cancel</a>
+        <button class="btn btn-danger-outline" type="submit">Yes, Delete</button>
+        <a class ="btn btn-outline" href="{% url 'blog-home' %}">Cancel</a>
       </div>
     </form>
   </div>
+  </div>
+        </div>
 {% endblock content%}
