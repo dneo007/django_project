@@ -33,10 +33,6 @@ class PostListView(ListView):  # <app>/<model>_<Viewtype>.html
     paginate_by = 10  # number of posts per page
 
 
-class PostDetailView(DetailView):
-    model = post
-
-
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = post
     fields = ['content']
