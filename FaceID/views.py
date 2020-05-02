@@ -1,4 +1,3 @@
-import shutil
 from django.shortcuts import render, redirect
 import time
 import pickle
@@ -8,10 +7,12 @@ from PIL import Image
 import numpy as np
 from my_project.settings import MEDIA_ROOT
 from users import models
+from users.models import Profile
 
 
 def setupFaceID(request):
     if request.method == 'POST' and 'start' in request.POST:
+        p = Profile.objects.get(user=request.user)
         id = str(request.user.id)
         BASE_DIR = MEDIA_ROOT
         image_dir = os.path.join(BASE_DIR, "face_images")
@@ -20,6 +21,8 @@ def setupFaceID(request):
             os.makedirs(id)
         os.chdir(id)
         count = cam(request)
+        p.fc = False
+        p.save()
         if count is None:
             return render(request, 'FaceID/setup.html', {'message': 'No camera detected'})
         elif count >= 5:

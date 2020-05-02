@@ -74,6 +74,7 @@ def profile(request):
 def setupSuccess(request):
     p = Profile.objects.get(user=request.user)
     p.fc_setup = True
+    p.fc = True
     p.save()
     return render(request, 'users/FaceIDsetupSuccess.html')
 
