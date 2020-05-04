@@ -14,8 +14,7 @@ def setupFaceID(request):
     if request.method == 'POST' and 'start' in request.POST:
         p = Profile.objects.get(user=request.user)
         id = str(request.user.id)
-        BASE_DIR = MEDIA_ROOT
-        image_dir = os.path.join(BASE_DIR, "face_images")
+        image_dir = os.path.join(MEDIA_ROOT, "face_images")
         os.chdir(image_dir)
         if not os.path.exists(id):
             os.makedirs(id)
@@ -75,7 +74,6 @@ def cam(request):
         if count > 5:
             break
         if time.time() > timeout:
-            # shutil.rmtree(os.getcwd(), ignore_errors=False, onerror=None)   THIS LINE CAN DELETED THE WHOLE PROJECT
             return count
     ###############################################################################################################
     # Once pictures are taken, go back to base directory and train the machine to recognize the images
@@ -105,7 +103,6 @@ def cam(request):
 
                 for (x, y, w, h) in faces:
                     roi = image_array[y:y + h, x:x + w]
-                    img_item = "my-image.png"
                     x_train.append(roi)
                     y_labels.append(id_)
 
