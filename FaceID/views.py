@@ -78,9 +78,7 @@ def cam(request):
     ###############################################################################################################
     # Once pictures are taken, go back to base directory and train the machine to recognize the images
     ###############################################################################################################
-    # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    # image_dir = os.path.join(BASE_DIR, "images")
-    # os.chdir(BASE_DIR)
+
 
     BASE_DIR = MEDIA_ROOT
     image_dir = os.path.join(BASE_DIR, "face_images")
