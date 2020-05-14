@@ -34,6 +34,14 @@ def setupFaceID(request):
     return render(request, 'FaceID/setup.html')
 
 
+def setupSuccess(request):
+    p = Profile.objects.get(user=request.user)
+    p.fc_setup = True
+    p.fc = True
+    p.save()
+    return render(request, 'users/FaceIDsetupSuccess.html')
+
+
 def cam(request):
     face_cascade = cv2.CascadeClassifier(
         '/usr/local/lib/python3.7/dist-packages/cv2/data/haarcascade_frontalface_alt2.xml')

@@ -4,7 +4,7 @@
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,7 @@
       <workItem from="1588597288533" duration="3844000" />
       <workItem from="1588752395690" duration="714000" />
       <workItem from="1588928620191" duration="971000" />
-      <workItem from="1589448360415" duration="2602000" />
+      <workItem from="1589448360415" duration="5922000" />
     </task>
     <servers />
   </component>

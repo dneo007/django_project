@@ -13,9 +13,6 @@ from .models import Profile
 from django.contrib.auth.models import User
 from my_project.settings import MEDIA_ROOT
 
-from django.http.response import JsonResponse, HttpResponse
-from django.views.decorators.csrf import csrf_exempt
-
 
 def register(request):
     if request.method == 'POST':
@@ -69,14 +66,6 @@ def profile(request):
     }
 
     return render(request, 'users/profile.html', context)
-
-
-def setupSuccess(request):
-    p = Profile.objects.get(user=request.user)
-    p.fc_setup = True
-    p.fc = True
-    p.save()
-    return render(request, 'users/FaceIDsetupSuccess.html')
 
 
 def faceIDLogin(request):
