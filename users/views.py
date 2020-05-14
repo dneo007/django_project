@@ -83,7 +83,10 @@ def faceIDLogin(request):
     if request.method == 'POST' and 'start' in request.POST:
         userID = recognize()
 
-        if userID != -1 and userID is not None:
+        if userID is None:
+            return render(request, 'users/FaceIDLogin.html', {'message': 'No camera detected'})
+
+        if userID >= 0:
             base_url = reverse('FaceIDLoginSuccess')
             user = User.objects.get(id=userID).username
             query_string = urlencode({'username': user})
@@ -91,11 +94,11 @@ def faceIDLogin(request):
             return redirect(url)
 
         elif userID == -1:
-            return render(request, 'users/FaceIDLogin.html', {'message': 'Not receiving images, please ensure your '
-                                                                         'camera is working.'})
-        else:
             return render(request, 'users/FaceIDLogin.html', {'message': 'We are having difficulties detecting your '
                                                                          'face, press to try again.'})
+
+        elif userID == -2:
+            return render(request, 'users/FaceIDLogin.html', {'message': 'One face at a time please.'})
 
     return render(request, 'users/FaceIDLogin.html')
 
@@ -136,7 +139,8 @@ def recognize():
         labels = {v: k for k, v in og_labels.items()}
 
     cap = cv2.VideoCapture(0)
-
+    if cap is None or not cap.isOpened():
+        return None
     def make_480p():
         cap.set(3, 640)
         cap.set(4, 480)
@@ -146,30 +150,29 @@ def recognize():
     timeout = time.time() + 20  # 20 seconds from now
     while True:
         ret, frame = cap.read()
-        if frame is not None:
-            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-            faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=3)
-            for (x, y, w, h) in faces:
-                roi_gray = gray[y:y + h, x:x + w]
-                id_, conf = recognizer.predict(roi_gray)
-                if 45 <= conf <= 85:
-                    userID = labels[id_]
-                    # font = cv2.FONT_HERSHEY_SIMPLEX
-                    # color = (255, 255, 255)
-                    # stroke = 2
-                    # cv2.putText(frame, userID, (x, y), font, 1, color, stroke, cv2.LINE_AA)
-                    return userID
-
-                # color = (255, 0, 0)  # BGR
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=3)
+        if len(faces) > 1:
+            return -2
+        for (x, y, w, h) in faces:
+            roi_gray = gray[y:y + h, x:x + w]
+            id_, conf = recognizer.predict(roi_gray)
+            if 45 <= conf <= 85:
+                userID = labels[id_]
+                # font = cv2.FONT_HERSHEY_SIMPLEX
+                # color = (255, 255, 255)
                 # stroke = 2
-                # cv2.rectangle(frame, (x, y), (w + x, h + y), color, stroke)
+                # cv2.putText(frame, userID, (x, y), font, 1, color, stroke, cv2.LINE_AA)
+                return int(userID)
 
-            # cv2.imshow('frame', frame)
+            # color = (255, 0, 0)  # BGR
+            # stroke = 2
+            # cv2.rectangle(frame, (x, y), (w + x, h + y), color, stroke)
 
-        else:
-            return -1
+        # cv2.imshow('frame', frame)
+
 
         if time.time() > timeout:
-            return None
+            return -1
 
 

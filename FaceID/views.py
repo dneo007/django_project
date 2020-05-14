@@ -26,10 +26,11 @@ def setupFaceID(request):
             return render(request, 'FaceID/setup.html', {'message': 'No camera detected'})
         elif count >= 5:
             return redirect('success')
-        else:
+        elif count > 0:
 
             return render(request, 'FaceID/setup.html', {'message':'We are having difficulties detecting your face, press to continue. Progress: '+str(((count-1)/5)*100) + '%'})
-
+        else:
+            return render(request, 'FaceID/setup.html', {'message': 'One face at a time please.'})
     return render(request, 'FaceID/setup.html')
 
 
@@ -59,6 +60,8 @@ def cam(request):
 
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=3)
+        if len(faces) > 1:
+            return -1
         for (x, y, w, h) in faces:
             img_item = 'face_images/' + str(request.user.id) + '/' + str(count) + ".JPG"
             fileName = str(count) + ".JPG"
