@@ -7,7 +7,7 @@ from PIL import Image
 import numpy as np
 from my_project.settings import MEDIA_ROOT
 from users import models
-from users.models import Profile
+from users.models import Profile, FcPic
 
 
 def setupFaceID(request):
