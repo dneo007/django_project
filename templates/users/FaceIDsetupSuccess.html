@@ -24,11 +24,25 @@
     </header>
 <div class="content-container">
         <div class="content-area">
-     <h1>Face ID has been setup successfully</h1>
-         <br>
-         {% csrf_token %}
-
+    <div class="alert alert-success" role="alert">
+        <div class="alert-items">
+            <div class="alert-item static">
+                <div class="alert-icon-wrapper">
+                    <clr-icon class="alert-icon" shape="check-circle"></clr-icon>
+                </div>
+                <span class="alert-text">
+                    Face ID has been setup successfully
+                </span>
+            </div>
+        </div>
+    </div>
+     <h1>Face ID </h1>
+     <br>
+     {% for pic in pics %}
+     <img src="{{  pic.pic.url }}" width="256" height="192">
+     {% endfor %}
      </div>
 </div>
      </div>
+
 {% endblock content%}
