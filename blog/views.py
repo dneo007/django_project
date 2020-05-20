@@ -35,7 +35,7 @@ class PostListView(ListView):  # <app>/<model>_<Viewtype>.html
 
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = post
-    fields = ['content']
+    fields = ['title', 'content']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -44,7 +44,7 @@ class PostCreateView(LoginRequiredMixin, CreateView):
 
 class PostUpdateView(LoginRequiredMixin, UpdateView):
     model = post
-    fields = ['content']
+    fields = ['title', 'content']
 
     def form_valid(self, form):
         form.instance.author = self.request.user

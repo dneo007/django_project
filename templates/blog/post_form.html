@@ -29,8 +29,22 @@
     <form method="POST">
       {% csrf_token %}
       <fieldset class="form-group">
-        <legend class="border-bottom mb-4">Feedback Form</legend>
-          <textarea name="content" cols="40" rows="10" required="" id="id_content"></textarea>
+        <legend class="border-bottom mb-4">Feedback Form</legend><br>
+        How would you rate your VMware EBC Experience? (1 being Very Unsatisfied, 5 being Very Satisfied)<br>
+          <!-- <textarea name="title" cols="40" rows="1" required="" id="id_title"></textarea> -->
+          <input type="radio" id="rating1" name="title" value="1">
+          <label for="1">1</label>
+          <input type="radio" id="rating2" name="title" value="2">
+          <label for="2">2</label>
+          <input type="radio" id="rating3" name="title" value="3">
+          <label for="3">3</label>
+          <input type="radio" id="rating4" name="title" value="4">
+          <label for="4">4</label>
+          <input type="radio" id="rating5" name="title" value="5">
+          <label for="5">5</label><br>
+          <br>
+          How do you think your VMware EBC experience can be improved?<br>
+          <textarea name="content" cols="40" rows="5" required="" id="id_content"></textarea>
       </fieldset>
       <div class="form-group">
         <button class ="btn btn-outline-info" type="submit">Post</button>

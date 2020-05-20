@@ -53,7 +53,32 @@
                             {{ post.author }}
               <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
                         </span>
-
+                        <div class="row">
+                          <div class="column">
+                        User Rated:
+                        {% if post.title == '1' %}
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        {% elif post.title == '2' %}
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        {% elif post.title == '3' %}
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        {% elif post.title == '4' %}
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        {% elif post.title == '5' %}
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        <img src="static/media/ratingstar.png" width="20" height="20">
+                        {% endif %}
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-text">
