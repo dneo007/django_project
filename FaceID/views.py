@@ -39,7 +39,11 @@ def setupSuccess(request):
     p.fc_setup = True
     p.fc = True
     p.save()
-    return render(request, 'users/FaceIDsetupSuccess.html')
+    pictures = FcPic.objects.filter(profile=p)
+    context = {
+        'pics': pictures
+    }
+    return render(request, 'users/FaceIDsetupSuccess.html', context)
 
 
 def cam(request):
