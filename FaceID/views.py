@@ -24,11 +24,27 @@ def setupFaceID(request):
         p.save()
         if count is None:
             return render(request, 'FaceID/setup.html', {'message': 'No camera detected'})
-        elif count >= 5:
+        elif count >= 10:  # timed out
+            pictures = FcPic.objects.filter(profile=p)
+            context = {
+                'pics': pictures,
+                'message': 'Progress: ' + str(
+                    ((count - 11) / 5) * 100) + '%',
+                'progress': ((count - 11) / 5) * 100,
+                'timeout': 'Timed out, press continure to try again'
+            }
+            return render(request, 'FaceID/setup.html', context)
+        elif count > 5:
             return redirect('success')
         elif count > 0:
-
-            return render(request, 'FaceID/setup.html', {'message':'We are having difficulties detecting your face, press to continue. Progress: '+str(((count-1)/5)*100) + '%'})
+            pictures = FcPic.objects.filter(profile=p)
+            context = {
+                'pics': pictures,
+                'message': 'Progress: ' + str(
+                    ((count - 1) / 5) * 100) + '%',
+                'progress': ((count - 1) / 5) * 100
+            }
+            return render(request, 'FaceID/setup.html', context)
         else:
             return render(request, 'FaceID/setup.html', {'message': 'One face at a time please.'})
     return render(request, 'FaceID/setup.html')
@@ -48,7 +64,9 @@ def setupSuccess(request):
 
 def cam(request):
     face_cascade = cv2.CascadeClassifier(
-        '/usr/local/lib/python3.7/dist-packages/cv2/data/haarcascade_frontalface_alt2.xml')
+       # '/Users/benjaminchen/Desktop/my_project/venv/lib/python3.8/site-packages/cv2/data/haarcascade_frontalface_alt2.xml'
+        '/usr/local/lib/python3.7/dist-packages/cv2/data/haarcascade_frontalface_alt2.xml'
+    )
     recognizer = cv2.face.LBPHFaceRecognizer_create()
 
     current_id = 0
@@ -80,20 +98,18 @@ def cam(request):
             count += 1
             cv2.imwrite(fileName, gray)
             user = models.Profile.objects.get(user=request.user)
-            user.fc_pic = img_item
-            user.save()
-
             obj = models.FcPic.objects.create(profile=user, pic=img_item)
             obj.save()
+            if count <= 5:
+                return count
         # cv2.imshow('frame', frame)
         if count > 5:
             break
         if time.time() > timeout:
-            return count
+            return count + 10
     ###############################################################################################################
     # Once pictures are taken, go back to base directory and train the machine to recognize the images
     ###############################################################################################################
-
 
     BASE_DIR = MEDIA_ROOT
     image_dir = os.path.join(BASE_DIR, "face_images")
@@ -107,12 +123,13 @@ def cam(request):
                 if label not in label_ids:
                     label_ids[label] = current_id
                     current_id += 1
+                    print(current_id)
 
                 id_ = label_ids[label]
 
                 pil_image = Image.open(path).convert("L")  # converts to grayscale
                 image_array = np.array(pil_image, "uint8")
-                faces = face_cascade.detectMultiScale(image_array, scaleFactor=1.5, minNeighbors=5)
+                faces = face_cascade.detectMultiScale(image_array)
 
                 for (x, y, w, h) in faces:
                     roi = image_array[y:y + h, x:x + w]

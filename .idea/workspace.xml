@@ -4,7 +4,18 @@
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceID/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/labels.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/trainer.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FaceID/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FaceID/setup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/FaceIDsetupSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/FaceIDsetupSuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +174,8 @@
       <workItem from="1588752395690" duration="714000" />
       <workItem from="1588928620191" duration="971000" />
       <workItem from="1589448360415" duration="5922000" />
+      <workItem from="1590067729551" duration="560000" />
+      <workItem from="1590070558262" duration="1192000" />
     </task>
     <servers />
   </component>

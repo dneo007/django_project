@@ -29,10 +29,12 @@
 
       <div class="content-container">
         <div class="content-area">
+        <br>
      <h1>Face ID Setup</h1>
          <br>
-         <h5> Face the camera and press start,</h5>
-         <h5> and then wait while we learn to recognize your face.</h5>
+        {% if not progress %}
+         <h5> Face the camera and press start.</h5>
+        {% endif %}
         <br>
      <form method="post">
          {% csrf_token %}
@@ -46,6 +48,36 @@
      {% if message %}
         {{ message }}
      {% endif %}
+        <br>
+        {% if progress %}
+            {% if progress == 20 %}
+                <div class="progress-static">
+                    <div class="progress-meter" data-value="20"></div>
+                </div>
+             {% elif progress == 40 %}
+                <div class="progress-static">
+                    <div class="progress-meter" data-value="40"></div>
+            </div>
+            {% elif progress == 60 %}
+                <div class="progress-static">
+                    <div class="progress-meter" data-value="60"></div>
+            </div>
+                {% elif progress == 80 %}
+                <div class="progress-static">
+                    <div class="progress-meter" data-value="80"></div>
+            </div>
+            {% endif %}
+
+        {% endif %}
+
+        {% if timeout %}
+            {{ timeout }}
+        {% endif %}
+
+    <br>
+     {% for pic in pics %}
+     <img src="{{  pic.pic.url }}" width="256" height="192">
+     {% endfor %}
 
      </div>
       </div>
