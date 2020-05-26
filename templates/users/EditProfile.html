@@ -46,12 +46,14 @@
 
     </header>
 
-    <br>
     <div class="content-container">
         <div class="content-area">
-
-<form method="POST" enctype="multipart/form-data">
+        <div class="login-wrapper">
+<form method="POST" class="login" enctype="multipart/form-data">
     {% csrf_token %}
+    <section class="title">
+        <h3 class="welcome">Edit Profile</h3>
+    </section>
   <fieldset class="form-group">
       {{ u_form.as_p }}
       {{ p_form.as_p }}
@@ -66,9 +68,10 @@
 
   </fieldset>
   <div class="form-group">
-      <button class="btn btn-outline-info" type="submit">Update</button>
+      <button class="btn btn-primary" type="submit">Update</button>
   </div>
 </form>
+        </div>
    </div>
 
     <nav class="sidenav">
@@ -85,6 +88,5 @@
         </section>
     </nav>
 
-    </div>
 </div>
 {% endblock content %}
