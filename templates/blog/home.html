@@ -36,6 +36,9 @@
         <div class="content-area">
 
     <h2 style="text-align: left"><br>Feedback</h2>
+    {{ avg }}
+
+
     {% if not user.is_authenticated %}
         Thank you for visiting VMware EBC <br>
         If you would like to leave a feedback please <a href="/login/">log in</a> or <a href="/register/">register</a>

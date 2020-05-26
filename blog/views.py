@@ -3,6 +3,7 @@ from .models import post
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.db.models import Avg
 
 
 def home(request):
@@ -18,8 +19,10 @@ def home(request):
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
 
+    avg = post.objects.aggregate(avg_rating=Avg('rating'))
     context = {
-        'posts': posts  # pass in posts dict to 'posts' key in context dict
+        'posts': posts,  # pass in posts dict to 'posts' key in context dict
+        'avg': avg
     }
 
     return render(request, 'blog/home.html', context)  # pass in the context dict
