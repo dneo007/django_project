@@ -82,7 +82,7 @@
             <a href={% url 'editProfile' %} class="active nav-link">
                 Edit Profile
             </a>
-            <a href="#" class="nav-link">
+            <a href={% url 'user-posts'  user.username %} class="nav-link">
                 Posts
             </a>
         </section>
