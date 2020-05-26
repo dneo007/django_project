@@ -1,9 +1,32 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-<div class="main-container">
+    <head>
+  <style>
+    .fishes
+    {
+      position:absolute;
+        left: 22%;
+        top: 60px;
+        right: 0px;
+        width: auto;
+      z-index: 0;
+        border-radius: 2%;
+    }
+    .fish
+    {
+        position: absolute;
+        left: 23%;
+        top: 300px;
+        border-radius: 50%;
+      z-index: 2;
+    }
+  </style>
+</head>
+
+<div class="main-container" >
     <header class="header-6">
-    <div class="branding">
+    <div class="branding" >
         <a href="/"> <img class="brand-logo" src= "{% static 'media/vmware-white.png' %}"  width="184" height="60" }} ></a>
     </div>
     <div class="header-nav">
@@ -26,29 +49,42 @@
     <br>
     <div class="content-container">
         <div class="content-area">
-        <img class="circle" src="{{ user.profile.image.url }}" height="150" width="150">
-
-      <form method="POST" enctype="multipart/form-data">
-            {% csrf_token %}
-          <fieldset class="form-group">
-              <legend class="border-bottom mb-4">Profile Info</legend>
-              {{ u_form.as_p }}
-              {{ p_form.as_p }}
-            <label>
-                {% if checked %}
-                    <input type="checkbox" id="id_fc" name="fc" checked="checked">
-                {% else %}
-                    <input type="checkbox" id="id_fc" name="fc">
-                {% endif %}
-              <span for="id_fc">Enable Face ID</span>
-            </label>
-
-          </fieldset>
-          <div class="form-group">
-              <button class="btn btn-outline-info" type="submit">Update</button>
-          </div>
-      </form>
+         <img src="{{ user.profile.image.url }}" class="fish" width="140" height="140">
+        <img src={% static 'media/vmware.jpg' %} class="fishes" height="400">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <h1> <img src={% static 'media/user-line.svg' %}> {{ user.username }}</h1>
+    <h3> Name: {{ user.first_name }} {{ user.last_name }}</h3>
+    <h3> Email: {{ user.email }}</h3>
     </div>
+
+    <nav class="sidenav">
+        <section class="sidenav-content">
+            <a href={% url 'profile' %} class="nav-link active">
+                Profile
+            </a>
+            <a href={% url 'editProfile' %} class="nav-link">
+                Edit Profile
+            </a>
+            <a href="#" class="nav-link">
+                Posts
+            </a>
+        </section>
+    </nav>
+
     </div>
 </div>
 {% endblock content %}

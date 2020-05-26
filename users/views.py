@@ -35,6 +35,15 @@ def register(request):
 
 @login_required
 def profile(request):
+    user = request.user
+    context = {
+        'user': user
+    }
+
+    return render(request, 'users/profile.html', context)
+
+
+def editProfile(request):
     checked = Profile.objects.get(user=request.user).fc
     if request.method == 'POST':
         u_form = UserUpdateForm(request.POST, instance=request.user)
@@ -65,7 +74,7 @@ def profile(request):
         'checked': checked,
     }
 
-    return render(request, 'users/profile.html', context)
+    return render(request, 'users/EditProfile.html', context)
 
 
 def faceIDLogin(request):
@@ -110,8 +119,8 @@ def faceIDLoginSuccess(request):
 
 def recognize():
     face_cascade = cv2.CascadeClassifier(
-        # '/Users/benjaminchen/Desktop/my_project/venv/lib/python3.8/site-packages/cv2/data/haarcascade_frontalface_alt2.xml'
-        '/usr/local/lib/python3.7/dist-packages/cv2/data/haarcascade_frontalface_alt2.xml'
+         '/Users/benjaminchen/Desktop/my_project/venv/lib/python3.8/site-packages/cv2/data/haarcascade_frontalface_alt2.xml'
+        #'/usr/local/lib/python3.7/dist-packages/cv2/data/haarcascade_frontalface_alt2.xml'
     )
 
     trainerPath = os.path.join(MEDIA_ROOT, "trainer.yml")
