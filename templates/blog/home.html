@@ -36,8 +36,13 @@
         <div class="content-area">
 
     <h2 style="text-align: left"><br>Feedback</h2>
-    {{ avg }}
-
+    Average Rating: {{ avg.avg_rating }} <br>
+    Total posts: {{ total_posts }} <br>
+    Total 1 Star: {{ total_rating1 }}<br>
+    Total 2 Star: {{ total_rating2 }}<br>
+    Total 3 Star: {{ total_rating3 }}<br>
+    Total 4 Star: {{ total_rating4 }}<br>
+    Total 5 Star: {{ total_rating5 }}<br>
 
     {% if not user.is_authenticated %}
         Thank you for visiting VMware EBC <br>

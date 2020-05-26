@@ -20,9 +20,22 @@ def home(request):
         posts = paginator.page(paginator.num_pages)
 
     avg = post.objects.aggregate(avg_rating=Avg('rating'))
+    count = post.objects.count()
+    total_rating1 = post.objects.filter(rating=1).count()
+    total_rating2 = post.objects.filter(rating=2).count()
+    total_rating3 = post.objects.filter(rating=3).count()
+    total_rating4 = post.objects.filter(rating=4).count()
+    total_rating5 = post.objects.filter(rating=5).count()
+
     context = {
         'posts': posts,  # pass in posts dict to 'posts' key in context dict
-        'avg': avg
+        'avg': avg,
+        'total_posts': count,
+        'total_rating1': total_rating1,
+        'total_rating2': total_rating2,
+        'total_rating3': total_rating3,
+        'total_rating4': total_rating4,
+        'total_rating5': total_rating5
     }
 
     return render(request, 'blog/home.html', context)  # pass in the context dict
@@ -38,7 +51,7 @@ class PostListView(ListView):  # <app>/<model>_<Viewtype>.html
 
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = post
-    fields = ['title', 'content']
+    fields = ['rating', 'content']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -47,7 +60,7 @@ class PostCreateView(LoginRequiredMixin, CreateView):
 
 class PostUpdateView(LoginRequiredMixin, UpdateView):
     model = post
-    fields = ['title', 'content']
+    fields = ['rating', 'content']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
