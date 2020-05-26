@@ -1,9 +1,9 @@
+from django.shortcuts import render
 from .models import post
-from django.views.generic import ListView, CreateView, UpdateView, DeleteView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from django.shortcuts import render, get_object_or_404
-from django.contrib.auth.models import User
+from django.db.models import Avg
 
 
 def home(request):
@@ -19,8 +19,23 @@ def home(request):
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
 
+    avg = post.objects.aggregate(avg_rating=Avg('rating'))
+    count = post.objects.count()
+    total_rating1 = post.objects.filter(rating=1).count()
+    total_rating2 = post.objects.filter(rating=2).count()
+    total_rating3 = post.objects.filter(rating=3).count()
+    total_rating4 = post.objects.filter(rating=4).count()
+    total_rating5 = post.objects.filter(rating=5).count()
+
     context = {
-        'posts': posts  # pass in posts dict to 'posts' key in context dict
+        'posts': posts,  # pass in posts dict to 'posts' key in context dict
+        'avg': avg,
+        'total_posts': count,
+        'total_rating1': total_rating1,
+        'total_rating2': total_rating2,
+        'total_rating3': total_rating3,
+        'total_rating4': total_rating4,
+        'total_rating5': total_rating5
     }
 
     return render(request, 'blog/home.html', context)  # pass in the context dict
@@ -36,7 +51,7 @@ class PostListView(ListView):  # <app>/<model>_<Viewtype>.html
 
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = post
-    fields = ['title', 'content']
+    fields = ['rating', 'content']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -45,22 +60,11 @@ class PostCreateView(LoginRequiredMixin, CreateView):
 
 class PostUpdateView(LoginRequiredMixin, UpdateView):
     model = post
-    fields = ['title', 'content']
+    fields = ['rating', 'content']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
-
-
-class UserPostListView(ListView):  # <app>/<model>_<Viewtype>.html
-    model = post
-    template_name = 'blog/user_posts.html'
-    context_object_name = 'posts'
-    paginate_by = 10
-
-    def get_queryset(self):
-        user = get_object_or_404(User, username=self.kwargs.get('username'))
-        return post.objects.filter(author=user).order_by('-date_posted')
 
 
 class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):

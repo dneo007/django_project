@@ -36,6 +36,14 @@
         <div class="content-area">
 
     <h2 style="text-align: left"><br>Feedback</h2>
+    Average Rating: {{ avg.avg_rating }} <br>
+    Total posts: {{ total_posts }} <br>
+    Total 1 Star: {{ total_rating1 }}<br>
+    Total 2 Star: {{ total_rating2 }}<br>
+    Total 3 Star: {{ total_rating3 }}<br>
+    Total 4 Star: {{ total_rating4 }}<br>
+    Total 5 Star: {{ total_rating5 }}<br>
+
     {% if not user.is_authenticated %}
         Thank you for visiting VMware EBC <br>
         If you would like to leave a feedback please <a href="/login/">log in</a> or <a href="/register/">register</a>
@@ -55,31 +63,31 @@
                         </span>
                         <div class="row">
                           <div class="column">
-                        {% if post.title == '1' %}
+                        {% if post.rating == 1 %}
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
-                        {% elif post.title == '2' %}
+                        {% elif post.rating == 2 %}
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
-                        {% elif post.title == '3' %}
+                        {% elif post.rating == 3 %}
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
-                        {% elif post.title == '4' %}
+                        {% elif post.rating == 4 %}
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-line.svg" width="15" height="15">
-                        {% elif post.title == '5' %}
+                        {% elif post.rating == 5 %}
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-solid.svg" width="15" height="15">
                         <img src="static/media/star-solid.svg" width="15" height="15">

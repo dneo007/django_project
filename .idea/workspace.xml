@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/EditProfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/EditProfile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +184,7 @@
       <workItem from="1590070558262" duration="1761000" />
       <workItem from="1590123300357" duration="2390000" />
       <workItem from="1590135411218" duration="8489000" />
-      <workItem from="1590500054676" duration="3804000" />
+      <workItem from="1590500054676" duration="4226000" />
     </task>
     <servers />
   </component>
