@@ -28,6 +28,9 @@ def home(request):
     total_rating4 = post.objects.filter(rating=4).count()
     total_rating5 = post.objects.filter(rating=5).count()
 
+    numlist = [total_rating1,total_rating2,total_rating3,total_rating4,total_rating5]
+    largest=max(numlist)
+
     context = {
         'posts': posts,  # pass in posts dict to 'posts' key in context dict
         'avg': avg,
@@ -36,7 +39,8 @@ def home(request):
         'total_rating2': total_rating2,
         'total_rating3': total_rating3,
         'total_rating4': total_rating4,
-        'total_rating5': total_rating5
+        'total_rating5': total_rating5,
+        'largest': largest
     }
 
     return render(request, 'blog/home.html', context)  # pass in the context dict

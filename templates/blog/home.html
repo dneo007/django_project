@@ -67,11 +67,46 @@
     {% endif %}
     <br>
     {{ avg.avg_rating }} average based on {{ total_posts }} reviews.<br>
-    Total 1 Star: {{ total_rating1 }}<br>
-    Total 2 Star: {{ total_rating2 }}<br>
-    Total 3 Star: {{ total_rating3 }}<br>
-    Total 4 Star: {{ total_rating4 }}<br>
-    Total 5 Star: {{ total_rating5 }}<br>
+
+    Start Containers
+
+    largest quantity of responses: {{ largest }}
+
+    <div class="progress-block">
+        <label>5 Star</label>
+        <div class="progress">
+            <progress value={{ total_rating5 }} max={{ largest }}></progress>
+        </div>
+        <span>{{ total_rating5 }}</span>
+    </div>
+    <div class="progress-block">
+        <label>4 Star</label>
+        <div class="progress">
+            <progress value={{ total_rating4 }} max={{ largest }}></progress>
+        </div>
+        <span>{{ total_rating4 }}</span>
+    </div>
+    <div class="progress-block">
+        <label>3 Star</label>
+        <div class="progress">
+            <progress value={{ total_rating3}} max={{ largest }}></progress>
+        </div>
+        <span>{{ total_rating3 }}</span>
+    </div>
+    <div class="progress-block">
+        <label>2 Star</label>
+        <div class="progress">
+            <progress value={{ total_rating2 }} max={{ largest }}></progress>
+        </div>
+        <span>{{ total_rating2 }}</span>
+    </div>
+    <div class="progress-block">
+        <label>1 Star</label>
+        <div class="progress">
+            <progress value={{ total_rating1 }} max={{ largest }}></progress>
+        </div>
+        <span>{{ total_rating1 }}</span>
+    </div>
 
     {% if not user.is_authenticated %}
         Thank you for visiting VMware EBC <br>
