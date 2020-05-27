@@ -3,7 +3,7 @@
 {% block content %}
     <head>
   <style>
-    .fishes
+    .banner
     {
       position:absolute;
         left: 22%;
@@ -13,7 +13,7 @@
       z-index: 0;
         border-radius: 2%;
     }
-    .fish
+    .profile
     {
         position: absolute;
         left: 23%;
@@ -48,8 +48,8 @@
 
     <div class="content-container">
         <div class="content-area">
-         <img src="{{ user.profile.image.url }}" class="fish" width="140" height="140">
-        <img src={% static 'media/vmware.jpg' %} class="fishes" height="400">
+         <img src="{{ user.profile.image.url }}" class="profile" width="130" height="130">
+        <img src={% static 'media/try.jpg' %} class="banner" height="350">
         <br>
         <br>
         <br>
@@ -71,12 +71,12 @@
         <br>
             <div class="card">
             <div class="card-header">
-                <h1> <img src={% static 'media/user-line.svg' %}> {{ user.username }}</h1>
+                <h2> <img src={% static 'media/user-line.svg' %}> {{ user.username }}</h2>
             </div>
             <div class="card-block">
                 <div class="card-title">
-                    <h3> Name: {{ user.first_name }} {{ user.last_name }}</h3>
-                    <h3> Email: {{ user.email }}</h3>
+                    <h4> Name: {{ user.first_name }} {{ user.last_name }}</h4>
+                    <h4> Email: {{ user.email }}</h4>
                 </div>
                 <div class="card-text">
                 </div>
