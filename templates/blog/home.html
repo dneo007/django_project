@@ -36,8 +36,41 @@
         <div class="content-area">
 
     <h2 style="text-align: left"><br>Feedback</h2>
-    Average Rating: {{ avg.avg_rating }} <br>
-    Total posts: {{ total_posts }} <br>
+    User Rating:
+
+    {% if avg.avg_rating < 2 %}
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    {% elif avg.avg_rating < 3 %}
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    {% elif avg.avg_rating < 4 %}
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    {% elif avg.avg_rating < 5 %}
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-line.svg" width="25" height="25">
+    {% elif avg.avg_rating == 5 %}
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    <img src="static/media/star-solid.svg" width="25" height="25">
+    {% endif %}
+    <br>
+    {{ avg.avg_rating }} average based on {{ total_posts }} reviews.<br>
     Total 1 Star: {{ total_rating1 }}<br>
     Total 2 Star: {{ total_rating2 }}<br>
     Total 3 Star: {{ total_rating3 }}<br>
