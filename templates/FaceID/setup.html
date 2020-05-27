@@ -35,11 +35,18 @@
         {% if not progress %}
          <h5> Face the camera and press start.</h5>
         {% endif %}
-        <br>
      <form method="post">
          {% csrf_token %}
          {% if message %}
-        <button type="submit" name="start" class="waves-effect waves-light btn-large">Continue</button>
+             Press Continue to take the next picture, or press Retake to take the picture again.
+             <br>
+         {% if finished %}
+             <button type="submit" name="finish" class="waves-effect waves-light btn-large">Finish</button>
+             {% else %}
+             <button type="submit" name="start" class="waves-effect waves-light btn-large">Continue</button>
+         {% endif %}
+
+         <button type="submit" name="retake" class="waves-effect waves-light btn-large">Retake</button>
              {% else %}
         <button type="submit" name="start" class="waves-effect waves-light btn-large">Start</button>
          {% endif %}
@@ -65,6 +72,10 @@
                 {% elif progress == 80 %}
                 <div class="progress-static">
                     <div class="progress-meter" data-value="80"></div>
+            </div>
+                {% elif progress == 100 %}
+                <div class="progress-static">
+                    <div class="progress-meter" data-value="100"></div>
             </div>
             {% endif %}
 
