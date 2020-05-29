@@ -20,7 +20,8 @@ def home(request):
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
 
-    avg = post.objects.aggregate(avg_rating=Avg('rating'))
+    average = post.objects.aggregate(avg_rating=Avg('rating'))
+    avg = round(average['avg_rating'], 2)
     count = post.objects.count()
     total_rating1 = post.objects.filter(rating=1).count()
     total_rating2 = post.objects.filter(rating=2).count()
