@@ -5,6 +5,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Avg
 from django.contrib.auth.models import User
+from users.models import Profile
 
 
 def home(request):
@@ -29,8 +30,8 @@ def home(request):
     total_rating4 = post.objects.filter(rating=4).count()
     total_rating5 = post.objects.filter(rating=5).count()
 
-    numlist = [total_rating1,total_rating2,total_rating3,total_rating4,total_rating5]
-    largest=max(numlist)
+    numlist = [total_rating1, total_rating2, total_rating3, total_rating4, total_rating5]
+    largest = max(numlist)
 
     context = {
         'posts': posts,  # pass in posts dict to 'posts' key in context dict
@@ -93,3 +94,22 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         if self.request.user == post.author:
             return True
         return False
+
+
+def usersProfile(request, username):
+    user = User.objects.get(username=username)
+    profile = Profile.objects.get(user=user)
+    pic = profile.image
+    context = {'profilePic': pic,
+               'user': user,
+               }
+    return render(request, 'blog/users_profile.html', context)
+
+
+def usersPosts(request, username):
+    user = User.objects.get(username=username)
+    posts = post.objects.filter(author=user).order_by('-date_posted')
+    context = {'posts': posts,
+               'username': username,
+               }
+    return render(request, 'blog/users_posts.html', context)

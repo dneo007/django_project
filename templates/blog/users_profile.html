@@ -1,0 +1,110 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <head>
+  <style>
+    .banner
+    {
+      position:absolute;
+        left: 22%;
+        top: 60px;
+        right: 0px;
+        width: auto;
+      z-index: 0;
+        border-radius: 2%;
+    }
+    .profile
+    {
+        position: absolute;
+        left: 23%;
+        top: 300px;
+        border-radius: 50%;
+      z-index: 2;
+    }
+  </style>
+</head>
+
+<div class="main-container" >
+    <header class="header-6">
+    <div class="branding" >
+        <a href="/"> <img class="brand-logo" src= "{% static 'media/vmware-white.png' %}"  width="184" height="60" }} ></a>
+    </div>
+    <div class="header-nav">
+
+        <a href='/' class="nav-link nav-text">Home</a>
+        {% if user.is_authenticated %}
+            <a class="nav-link nav-text" href="{% url 'post-create' %}">Feedback</a>
+            <a class="nav-link nav-text" href="{% url 'profile' %}">Profile</a>
+            <a class="nav-link nav-text" href="{% url 'logout' %}">Logout</a>
+
+        {% else %}
+            <a href="{% url 'login' %}" class="nav-link nav-text">Login</a>
+            <a href="{% url 'register' %}" class="nav-link nav-text"> Register</a>
+        {% endif %}
+
+    </div>
+
+    </header>
+
+    <div class="content-container">
+        <div class="content-area">
+         <img src="{{ profilePic.url }}" class="profile" width="130" height="130">
+        <img src={% static 'media/try.jpg' %} class="banner" height="350">
+
+                    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+{#    <h1> <img src={% static 'media/user-line.svg' %}> {{ user.username }}</h1>#}
+{#    <h3> Name: {{ user.first_name }} {{ user.last_name }}</h3>#}
+{#    <h3> Email: {{ user.email }}</h3>#}
+        <br>
+            <div class="card">
+            <div class="card-header">
+                <h2> <img src={% static 'media/user-line.svg' %}> {{user.username }}</h2>
+            </div>
+            <div class="card-block">
+                <div class="card-title">
+                    <h4> Name: {{ user.first_name }} {{ user.last_name }}</h4>
+                    <h4> Email: {{ user.email }}</h4>
+                </div>
+                <div class="card-text">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+           <nav class="sidenav">
+        <section class="sidenav-content">
+            <a href={% url 'users-profile' user.username %} class="nav-link active">
+                Profile
+            </a>
+            <a href={% url 'users-posts'  user.username %} class="nav-link">
+                Posts
+            </a>
+        </section>
+    </nav>
+
+    </div>
+
+
+
+
+</div>
+{% endblock %}
