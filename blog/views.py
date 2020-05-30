@@ -33,6 +33,8 @@ def home(request):
     numlist = [total_rating1, total_rating2, total_rating3, total_rating4, total_rating5]
     largest = max(numlist)
 
+    currentUser = request.user.username
+
     context = {
         'posts': posts,  # pass in posts dict to 'posts' key in context dict
         'avg': avg,
@@ -42,18 +44,11 @@ def home(request):
         'total_rating3': total_rating3,
         'total_rating4': total_rating4,
         'total_rating5': total_rating5,
-        'largest': largest
+        'largest': largest,
+        'currentUser': currentUser
     }
 
     return render(request, 'blog/home.html', context)  # pass in the context dict
-
-
-class PostListView(ListView):  # <app>/<model>_<Viewtype>.html
-    model = post
-    template_name = 'blog/home.html'
-    context_object_name = 'posts'
-    ordering = ['-date_posted']
-    paginate_by = 10  # number of posts per page
 
 
 class PostCreateView(LoginRequiredMixin, CreateView):
