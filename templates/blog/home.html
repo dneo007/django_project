@@ -34,31 +34,31 @@
     <h2 style="text-align: left"><br>Feedback</h2>
     User Rating:
 
-    {% if avg.avg_rating < 2 %}
+    {% if avg < 2 %}
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
-    {% elif avg.avg_rating < 3 %}
+    {% elif avg < 3 %}
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
-    {% elif avg.avg_rating < 4 %}
+    {% elif avg < 4 %}
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
-    {% elif avg.avg_rating < 5 %}
+    {% elif avg < 5 %}
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-line.svg" width="25" height="25">
-    {% elif avg.avg_rating == 5 %}
+    {% elif avg == 5 %}
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-solid.svg" width="25" height="25">
     <img src="static/media/star-solid.svg" width="25" height="25">
