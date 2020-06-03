@@ -19,7 +19,7 @@
         left: 23%;
         top: 300px;
         border-radius: 50%;
-      z-index: 2;
+      z-index: 1;
     }
   </style>
 </head>
@@ -69,7 +69,7 @@
 {#    <h3> Name: {{ user.first_name }} {{ user.last_name }}</h3>#}
 {#    <h3> Email: {{ user.email }}</h3>#}
         <br>
-            <div class="card">
+            <div class="card" >
             <div class="card-header">
                 <h2> <img src={% static 'media/user-line.svg' %}> {{ user.username }}</h2>
             </div>
@@ -77,6 +77,10 @@
                 <div class="card-title">
                     <h4> Name: {{ user.first_name }} {{ user.last_name }}</h4>
                     <h4> Email: {{ user.email }}</h4>
+                    <h4> Job title: {{ user.profile.job_title }}</h4>
+                    <h4> Contact: {{ user.profile.contact }}</h4>
+                    <h4> Organization: {{ user.profile.organization }}</h4>
+                    <h4> Country: {{ user.profile.country }}</h4>
                 </div>
                 <div class="card-text">
                 </div>

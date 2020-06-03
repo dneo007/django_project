@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from PIL import Image
+from django_countries import fields
 
 
 def user_directory_path(instance, filename):
@@ -13,6 +14,10 @@ class Profile(models.Model):
     fc_setup = models.BooleanField(default=False)  # if FaceID has been set up or not
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     image = models.ImageField(default='default.jpg', upload_to='profile_pics')
+    job_title = models.CharField(max_length=100, default=" ")
+    contact = models.CharField(max_length=12, default=" ")
+    organization = models.CharField(max_length=100, default=" ")
+    country = fields.CountryField(default="Singapore")
 
     def __str__(self):
         return f'{self.user.username}''s Profile'

@@ -27,7 +27,7 @@ def register(request):
                 return redirect('setup')
 
             messages.success(request, f'Your account has been created! You are now able to log in')
-            return redirect('profile')
+            return redirect('editProfile')
     else:
         form = UserRegisterForm()
     return render(request, 'users/register.html', {'form': form})
@@ -50,6 +50,7 @@ def editProfile(request):
         p_form = ProfileUpdateForm(request.POST,
                                    request.FILES,
                                    instance=request.user.profile)
+
         f_form = FacialRecForm(request.POST, instance=request.user.profile)
         if u_form.is_valid() and p_form.is_valid():
             u_form.save()
@@ -66,7 +67,6 @@ def editProfile(request):
         u_form = UserUpdateForm(instance=request.user)
         p_form = ProfileUpdateForm(instance=request.user.profile)
         f_form = FacialRecForm(instance=request.user.profile)
-
     context = {
         'u_form': u_form,
         'p_form': p_form,

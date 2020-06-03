@@ -34,7 +34,7 @@ class UserUpdateForm(forms.ModelForm):
 class ProfileUpdateForm(forms.ModelForm):
     class Meta:
         model = Profile
-        fields = ['image']
+        fields = ['job_title', 'contact', 'organization', 'country', 'image']
 
 
 class FacialRecForm(forms.ModelForm):
