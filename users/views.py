@@ -12,7 +12,7 @@ from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm, FacialRe
 from .models import Profile
 from django.contrib.auth.models import User
 from my_project.settings import MEDIA_ROOT
-
+from django.db.models import Avg, Count
 
 def register(request):
     if request.method == 'POST':
@@ -37,9 +37,11 @@ def register(request):
 def profile(request):
     user = request.user
     profile = Profile.objects.get(user=request.user)
+    stats = Profile.objects.values('org').annotate(c=Count('org')).order_by('-c')
     context = {
         'user': user,
-        'profile': profile
+        'profile': profile,
+        'stats': stats
     }
 
     return render(request, 'users/profile.html', context)
