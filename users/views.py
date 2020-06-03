@@ -36,8 +36,10 @@ def register(request):
 @login_required
 def profile(request):
     user = request.user
+    profile = Profile.objects.get(user=request.user)
     context = {
-        'user': user
+        'user': user,
+        'profile': profile
     }
 
     return render(request, 'users/profile.html', context)
@@ -174,5 +176,3 @@ def recognize():
 
         if time.time() > timeout:
             return -1
-
-

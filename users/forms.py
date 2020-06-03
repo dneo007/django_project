@@ -32,9 +32,11 @@ class UserUpdateForm(forms.ModelForm):
 
 
 class ProfileUpdateForm(forms.ModelForm):
+    org = forms.CharField(max_length=100)
+
     class Meta:
         model = Profile
-        fields = ['job_title', 'contact', 'organization', 'country', 'image']
+        fields = ['org', 'image']
 
 
 class FacialRecForm(forms.ModelForm):
