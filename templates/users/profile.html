@@ -5,19 +5,15 @@
   <style>
     .banner
     {
-      position:absolute;
-        left: 22%;
-        top: 60px;
-        right: 0px;
-        width: auto;
+        width: 100%;
       z-index: 0;
         border-radius: 2%;
     }
     .profile
     {
-        position: absolute;
-        left: 23%;
-        top: 300px;
+        position: relative;
+        top: -100px;
+        left: 3%;
         border-radius: 50%;
       z-index: 1;
     }
@@ -48,27 +44,9 @@
 
     <div class="content-container">
         <div class="content-area">
-         <img src="{{ user.profile.image.url }}" class="profile" width="130" height="130">
-        <img src={% static 'media/try.jpg' %} class="banner" height="350">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-{#    <h1> <img src={% static 'media/user-line.svg' %}> {{ user.username }}</h1>#}
-{#    <h3> Name: {{ user.first_name }} {{ user.last_name }}</h3>#}
-{#    <h3> Email: {{ user.email }}</h3>#}
-        <br>
+        <img class="banner" src={% static 'media/try.jpg' %}  height="350">
+        <img class="profile" src="{{ user.profile.image.url }}" width="130" height="130">
+
             <div class="card" >
             <div class="card-header">
                 <h2> <img src={% static 'media/user-line.svg' %}> {{ user.username }}</h2>
