@@ -4,9 +4,8 @@
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/dash_apps/SimpleExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph/dash_apps/SimpleExample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
