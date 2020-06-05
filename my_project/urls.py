@@ -19,8 +19,9 @@ from django.contrib.auth import views as auth_views
 from users import views as user_views
 from django.conf import settings
 from django.conf.urls.static import static
-from graph.views import test
-from graph.dash_apps import SimpleExample
+from graph.views import OrganizationGraph, MapGraph
+from graph.dash_apps import OrganizationPlot
+from graph.dash_apps import MapPlot
 
 
 urlpatterns = [
@@ -39,8 +40,9 @@ urlpatterns = [
     path('editProfile/', user_views.editProfile, name='editProfile'),
     path('FaceIDLogin/', user_views.faceIDLogin, name='FaceIDLogin'),
     path('FaceIDLoginSuccess/', user_views.faceIDLoginSuccess, name='FaceIDLoginSuccess'),
-    path('Graph/', test, name='Graph'),
+    path('Company', OrganizationGraph, name='Company'),
     path('django_plotly_dash/', include('django_plotly_dash.urls')),
+    path('Country', MapGraph, name='Map')
 ]
 
 

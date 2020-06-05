@@ -1,4 +1,3 @@
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
@@ -6,10 +5,8 @@ from django_plotly_dash import DjangoDash
 import plotly.express as px
 from users.models import Profile
 from django.db.models import Avg, Count
-from graph.Countries import Countries
 
-
-__name__ = 'SimpleExample'
+__name__ = 'Organization'
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -20,19 +17,6 @@ colors = {
     'text': '#7FDBFF'
 }
 
-country_data = {'country': ['Vietnam'],
-                'continent': ['Asia'],
-                'pop': [1],
-                'iso_alpha': Countries["Vietnam"],
-                }
-
-country_df = pd.DataFrame(data=country_data)
-df = px.data.gapminder().query("year==2007")
-fig = px.scatter_geo(country_df, color="continent",
-                        locations="iso_alpha",
-                     hover_name="country", size="pop",
-                     projection="natural earth")
-
 orgstats = Profile.objects.values('org').annotate(c=Count('org')).order_by('-c').exclude(org='')
 data = {'organization': [], 'count': []}
 
@@ -41,14 +25,9 @@ for orgstat in orgstats:
     data['count'].append(orgstat['c'])
 
 data_organization = pd.DataFrame(data=data)
-fig2 = px.bar(data_organization, x='organization', y='count')
-
-
+fig = px.bar(data_organization, x='organization', y='count')
 
 app.layout = html.Div(
     style={'backgroundColor': colors['background']}, children=[
-    dcc.Graph(figure=fig2),
-        dcc.Graph(figure=fig)
-])
-
-
+        dcc.Graph(figure=fig),
+    ])

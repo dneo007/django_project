@@ -15,7 +15,7 @@
             <a class="nav-link nav-text" href="{% url 'post-create' %}">Feedback</a>
             <a class="nav-link nav-text" href="{% url 'profile' %}">Profile</a>
             <a class="nav-link nav-text" href="{% url 'logout' %}">Logout</a>
-            <a class="nav-link nav-text active" href="{% url 'Graph' %}">Statistics</a>
+            <a class="nav-link nav-text active" href="{% url 'Map' %}">Statistics</a>
         {% else %}
             <a href="{% url 'login' %}" class="nav-link nav-text">Login</a>
             <a href="{% url 'register' %}" class="nav-link nav-text"> Register</a>
@@ -28,19 +28,16 @@
     <div class="content-container">
         <div class="content-area" >
 
-        {%plotly_app name="SimpleExample" ratio=1 %}
+        {%plotly_app name="Map" ratio=1 %}
 
         </div>
         <nav class="sidenav">
         <section class="sidenav-content">
-            <a href={% url 'profile' %} class="nav-link active">
+            <a href={% url 'Company' %} class="nav-link">
                 Company
             </a>
-            <a href={% url 'editProfile' %} class="nav-link">
+            <a href={% url 'Map' %} class="nav-link active">
                 Country
-            </a>
-            <a href={% url 'user-posts'  user.username %} class="nav-link">
-                Other
             </a>
         </section>
     </nav>

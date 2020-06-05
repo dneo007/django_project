@@ -1,7 +1,11 @@
-import plotly.express as px
 from django.shortcuts import render, redirect
 
 
-def test(request):
+def OrganizationGraph(request):
 
-    return render(request, 'graph/graph.html')
+    return render(request, 'graph/OrganizationGraph.html')
+
+
+def MapGraph(request):
+
+    return render(request, 'graph/MapGraph.html')

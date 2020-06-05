@@ -16,7 +16,9 @@
             <a class="nav-link nav-text" href="{% url 'post-create' %}">Feedback</a>
             <a class="active nav-link nav-text" href="{% url 'profile' %}">Profile</a>
             <a class="nav-link nav-text" href="{% url 'logout' %}">Logout</a>
-
+            {% if user.is_superuser %}
+            <a class="nav-link nav-text" href="{% url 'Company' %}">Statistics</a>
+            {% endif %}
         {% else %}
             <a href="{% url 'login' %}" class="nav-link nav-text">Login</a>
             <a href="{% url 'register' %}" class="nav-link nav-text"> Register</a>
