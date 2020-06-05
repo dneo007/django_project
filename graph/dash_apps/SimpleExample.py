@@ -6,6 +6,7 @@ from django_plotly_dash import DjangoDash
 import plotly.express as px
 from users.models import Profile
 from django.db.models import Avg, Count
+from graph.Countries import Countries
 
 
 __name__ = 'SimpleExample'
@@ -22,7 +23,7 @@ colors = {
 country_data = {'country': ['Vietnam'],
                 'continent': ['Asia'],
                 'pop': [1],
-                'iso_alpha': ['VNM'],
+                'iso_alpha': Countries["Vietnam"],
                 }
 
 country_df = pd.DataFrame(data=country_data)
@@ -31,10 +32,6 @@ fig = px.scatter_geo(country_df, color="continent",
                         locations="iso_alpha",
                      hover_name="country", size="pop",
                      projection="natural earth")
-
-print(country_df)
-
-print(df)
 
 orgstats = Profile.objects.values('org').annotate(c=Count('org')).order_by('-c').exclude(org='')
 data = {'organization': [], 'count': []}

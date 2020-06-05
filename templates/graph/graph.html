@@ -2,7 +2,7 @@
 {%load plotly_dash%}
 {% load static %}
 {% block content %}
-
+{% if user.is_superuser %}
     <div class="main-container" >
     <header class="header-6">
     <div class="branding" >
@@ -47,4 +47,7 @@
     </div>
     </div>
 
+    {% else %}
+        <h1>You are not authorized to view this page.</h1>
+{% endif %}
 {% endblock %}
