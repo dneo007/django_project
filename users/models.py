@@ -16,6 +16,7 @@ class Profile(models.Model):
     org = models.CharField(max_length=100)
     jobtitle=models.CharField(max_length=100)
     contactno = models.IntegerField()
+    country = models.CharField(max_length=50, default='Singapore')
 
     def __str__(self):
         return f'{self.user.username}''s Profile'
