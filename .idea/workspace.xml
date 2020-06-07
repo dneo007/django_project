@@ -4,9 +4,9 @@
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph/Countries.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph/Countries.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph/dash_apps/MapPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph/dash_apps/MapPlot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -196,7 +196,8 @@
       <workItem from="1591261560865" duration="729000" />
       <workItem from="1591340451473" duration="272000" />
       <workItem from="1591343986655" duration="240000" />
-      <workItem from="1591440637291" duration="2307000" />
+      <workItem from="1591440637291" duration="2625000" />
+      <workItem from="1591522193040" duration="3129000" />
     </task>
     <servers />
   </component>

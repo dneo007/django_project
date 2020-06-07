@@ -13,8 +13,8 @@ from graph.Countries import Countries, Country_to_continents
 # continent = []
 # rrouoddttrreeee3 = 0
 # for keys in Countries:
-#     rrouoddttrreeee3 += 1
-#     print(keys + ": " + pc.country_name_to_country_alpha2(cn_name_format="default", cn_name=keys))
+#     #rrouoddttrreeee3 += 1
+#     print('(\''+keys + "\', \'" + keys+'\'), ')
 #     country_alpha2.append(pc.country_name_to_country_alpha2(cn_name_format="default", cn_name=keys))
 #
 # print(len(country_alpha2))
