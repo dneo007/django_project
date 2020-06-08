@@ -16,7 +16,7 @@ class Profile(models.Model):
     image = models.ImageField(default='default.jpg', upload_to='profile_pics')
     org = models.CharField(max_length=100)
     jobtitle=models.CharField(max_length=100)
-    contactno = models.IntegerField()
+    contactno = models.IntegerField(null=True)
     country = models.CharField(max_length=44, choices=COUNTRY_CHOICES, default='Singapore')
 
 
