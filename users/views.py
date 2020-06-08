@@ -37,11 +37,9 @@ def register(request):
 def profile(request):
     user = request.user
     profile = Profile.objects.get(user=request.user)
-    orgstats = Profile.objects.values('org').annotate(c=Count('org')).order_by('-c').exclude(org='')
     context = {
         'user': user,
         'profile': profile,
-        'orgstats': orgstats
     }
 
     return render(request, 'users/profile.html', context)
