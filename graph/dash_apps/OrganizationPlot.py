@@ -4,7 +4,7 @@ import pandas as pd
 from django_plotly_dash import DjangoDash
 import plotly.express as px
 from users.models import Profile
-from django.db.models import Avg, Count
+from django.db.models import Count
 
 __name__ = 'Organization'
 

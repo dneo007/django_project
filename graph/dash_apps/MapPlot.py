@@ -88,15 +88,14 @@ country_data = {'country': [],
                 'iso_alpha': [],
                 }
 
-for i in countryStats:
-    country_data['country'].append(i['country'])
-    country_data['continent'].append(Country_to_continents[i['country']])
-    country_data['count'].append(i['c'])
-    country_data['iso_alpha'].append(Countries[i['country']])
+for countryKey in countryStats:
+    country_data['country'].append(countryKey['country'])
+    country_data['continent'].append(Country_to_continents[countryKey['country']])
+    country_data['count'].append(countryKey['c'])
+    country_data['iso_alpha'].append(Countries[countryKey['country']])
 
 country_df = pd.DataFrame(data=country_data)
 
-# df = px.data.gapminder().query("year==2007")
 
 fig = px.scatter_geo(country_df, color="continent",
                      locations="iso_alpha",
