@@ -25,7 +25,8 @@ for orgstat in orgstats:
     data['count'].append(orgstat['c'])
 
 data_organization = pd.DataFrame(data=data)
-fig = px.bar(data_organization, x='organization', y='count')
+fig = px.bar(data_organization, x='organization', y='count', labels={'organization': 'Organization', 'count': 'Number of users'},
+             color='organization')
 
 app.layout = html.Div(
     style={'backgroundColor': colors['background']}, children=[
