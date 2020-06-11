@@ -11,6 +11,12 @@ class UserRegisterForm(UserCreationForm):
     class Meta:
         model = User
         fields = ['username', 'first_name', 'last_name', 'email', 'password1', 'password2', 'fc']
+        widgets = {
+            'username': forms.TextInput(attrs={'autocomplete': 'off'}),
+            'first_name': forms.TextInput(attrs={'autocomplete': 'off'}),
+            'last_name': forms.TextInput(attrs={'autocomplete': 'off'}),
+            'email': forms.TextInput(attrs={'autocomplete': 'off'})
+        }
 
     def __init__(self, *args, **kwargs):
         super(UserCreationForm, self).__init__(*args, **kwargs)
@@ -34,12 +40,17 @@ class UserUpdateForm(forms.ModelForm):
 class ProfileUpdateForm(forms.ModelForm):
     class Meta:
         model = Profile
-        fields = ['org', 'contactno', 'country', 'image']
+        fields = ['org', 'jobtitle', 'contactno', 'country', 'image']
         labels = {
             'org': 'Organization',
             'contactno': 'Contact number',
+            'jobtitle': 'Job title'
         }
-
+        widgets = {
+            'jobtitle': forms.TextInput(attrs={'autocomplete': 'off'}),
+            'contactno': forms.TextInput(attrs={'autocomplete': 'off'}),
+            'org': forms.TextInput(attrs={'autocomplete': 'off'}),
+        }
 
 class FacialRecForm(forms.ModelForm):
     class Meta:

@@ -3,60 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="5070a853-750a-44ba-ac0f-6fb189f5b35a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceID/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceID/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/HCI.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/customer_success.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/60/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/60/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/60/3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/60/4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/60/5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/61/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/61/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/61/3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/61/4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/61/5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/62/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/62/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/62/3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/62/4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/62/5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/63/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/63/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/63/3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/63/4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/63/5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/64/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/64/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/64/3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/64/4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/64/5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/65/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/66/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/66/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/66/3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/66/4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/66/5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/67/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/68/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/68/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/68/3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/68/4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/68/5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/69/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/69/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/face_images/7/5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/78/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/78/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/78/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/78/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/face_images/78/5.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/labels.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/tanzu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/tech.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/trainer.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/users_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/users_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +210,7 @@
       <workItem from="1591692394764" duration="346000" />
       <workItem from="1591692745109" duration="7047000" />
       <workItem from="1591782154347" duration="4177000" />
-      <workItem from="1591877982580" duration="3357000" />
+      <workItem from="1591877982580" duration="8993000" />
     </task>
     <servers />
   </component>
@@ -293,9 +252,9 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="822" y="301" width="816" height="550" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1584950042696" />
-    <state x="435" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1588049171649">
+    <state x="435" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1591884591965">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="435" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1588049171649" />
+    <state x="435" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1591884591965" />
   </component>
 </project>

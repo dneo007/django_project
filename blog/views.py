@@ -97,8 +97,7 @@ class UserPostListView(ListView):
 def usersProfile(request, username):
     user = User.objects.get(username=username)
     profile = Profile.objects.get(user=user)
-    pic = profile.image
-    context = {'profilePic': pic,
+    context = {'profile': profile,
                'user': user,
                }
     return render(request, 'blog/users_profile.html', context)
