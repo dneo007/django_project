@@ -35,6 +35,10 @@ class ProfileUpdateForm(forms.ModelForm):
     class Meta:
         model = Profile
         fields = ['org', 'contactno', 'country', 'image']
+        labels = {
+            'org': 'Organization',
+            'contactno': 'Contact number',
+        }
 
 
 class FacialRecForm(forms.ModelForm):

@@ -121,8 +121,8 @@ def faceIDLoginSuccess(request):
 
 def recognize():
     face_cascade = cv2.CascadeClassifier(
-        # '/Users/benjaminchen/Desktop/my_project/venv/lib/python3.8/site-packages/cv2/data/haarcascade_frontalface_alt2.xml'
-        '/usr/local/lib/python3.7/dist-packages/cv2/data/haarcascade_frontalface_alt2.xml'
+        '/Users/benjaminchen/Desktop/my_project/venv/lib/python3.8/site-packages/cv2/data/haarcascade_frontalface_alt2.xml'
+        # '/usr/local/lib/python3.7/dist-packages/cv2/data/haarcascade_frontalface_alt2.xml'
     )
 
     trainerPath = os.path.join(MEDIA_ROOT, "trainer.yml")
