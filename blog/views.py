@@ -22,7 +22,10 @@ def home(request):
         posts = paginator.page(paginator.num_pages)
 
     average = post.objects.aggregate(avg_rating=Avg('rating'))
-    avg = round(average['avg_rating'], 2)
+    print(average)
+    avg = 0
+    if average['avg_rating'] is not None:
+        avg = round(average['avg_rating'], 2)
     count = post.objects.count()
     total_rating1 = post.objects.filter(rating=1).count()
     total_rating2 = post.objects.filter(rating=2).count()
@@ -60,17 +63,6 @@ class PostCreateView(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
 
 
-class UserPostListView(ListView):  # <app>/<model>_<Viewtype>.html
-    model = post
-    template_name = 'blog/user_posts.html'
-    context_object_name = 'posts'
-    paginate_by = 10
-
-    def get_queryset(self):
-        user = get_object_or_404(User, username=self.kwargs.get('username'))
-        return post.objects.filter(author=user).order_by('-date_posted')
-
-
 class PostUpdateView(LoginRequiredMixin, UpdateView):
     model = post
     fields = ['rating', 'content']
@@ -89,6 +81,17 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         if self.request.user == post.author:
             return True
         return False
+
+
+class UserPostListView(ListView):
+    model = post
+    template_name = 'blog/user_posts.html'
+    context_object_name = 'posts'
+    paginate_by = 10
+
+    def get_queryset(self):
+        user = get_object_or_404(User, username=self.kwargs.get('username'))
+        return post.objects.filter(author=user).order_by('-date_posted')
 
 
 def usersProfile(request, username):

@@ -32,10 +32,6 @@ class UserUpdateForm(forms.ModelForm):
 
 
 class ProfileUpdateForm(forms.ModelForm):
-
-    org = forms.CharField(required=False, max_length=100, label='Organisation')
-    contactno = forms.IntegerField(required=False, label='Contact Number')
-
     class Meta:
         model = Profile
         fields = ['org', 'contactno', 'country', 'image']

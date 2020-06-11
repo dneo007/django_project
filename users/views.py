@@ -12,7 +12,7 @@ from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm, FacialRe
 from .models import Profile
 from django.contrib.auth.models import User
 from my_project.settings import MEDIA_ROOT
-from django.db.models import Avg, Count
+
 
 def register(request):
     if request.method == 'POST':
